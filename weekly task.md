@@ -1,7 +1,7 @@
 # Full Stack Development Internship - Weekly Tasks & Daily Log
 
 **Overview**  
-This document outlines the daily logs and weekly tasks for a 16-week Full Stack Development Internship program. The internship maps actual company deliverables and project workflows, ensuring interns experience and contribute to real-world development lifecycles while touching on all required technologies throughout the period.
+This document outlines the daily logs and weekly tasks for a 16-week Full Stack Development Internship program.
 
 ---
 
