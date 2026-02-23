@@ -1,164 +1,164 @@
 # Full Stack Development Internship - Weekly Tasks & Daily Log
 
 **Overview**  
-This document outlines the daily logs and weekly tasks for a 16-week Full Stack Development Internship program.
+This document outlines the daily logs and weekly tasks for a 16-week Full Stack Development Internship program, designed specifically for a Diploma or Undergraduate student. The focus is on building a strong foundation in the MERN (MongoDB, Express, React, Node.js) stack, leading up to a complete application deployment.
 
 ---
 
-## Week 1: Company Onboarding, Environment Setup & Agile Basics
-**Weekly Objective:** Complete onboarding, set up the development environment, and integrate into the company's Agile team structure. 
-- **Day 1:** **Company Onboarding & Agile Introduction** - Attended onboarding sessions, reviewed company Agile methodologies, and joined the daily standup.
-- **Day 2:** **Understanding the Project Domain** - Studied the business domain, architecture patterns, and the product backlog for the intern project assignment.
-- **Day 3:** **Development Environment Setup** - Installed and configured required development tools: Visual Studio Code, Git, Node.js, and Java SDK.
-- **Day 4:** **Git & Version Control Workflow** - Cloned the company repository, learned branching strategies, and created a test pull request.
-- **Day 5:** **Sprint Planning & User Stories** - Participated in sprint planning, reviewing user stories and understanding the Design Thinking behind upcoming UI features.
+## Week 1: Company Onboarding, Environment Setup & Version Control
+**Weekly Objective:** Complete company onboarding, set up the development environment, and understand basic Git version control workflows.
+- **Day 1:** **Company Onboarding** - Attended orientation sessions, met the team, and reviewed company policies and communication channels.
+- **Day 2:** **Development Environment Setup** - Installed required tools: Visual Studio Code, Git, Node.js, and postman/browser extensions.
+- **Day 3:** **Introduction to Version Control (Git)** - Learned fundamental Git commands (`add`, `commit`, `push`, `pull`, `status`, `log`).
+- **Day 4:** **Branching & GitHub** - Cloned the company repository, learned branching strategies, and created a test pull request.
+- **Day 5:** **Agile Basics & Sprint Planning** - Shadowed a daily standup and reviewed how tasks are tracked using Jira/Trello.
 
 ---
 
-## Week 2: Front End Foundation & HTML/CSS Refactoring
-**Weekly Objective:** Understand the existing company front end architecture and update legacy HTML/CSS structures.
-- **Day 1:** **Codebase Familiarization (Front End)** - Navigated the existing frontend repository, identifying core HTML files and CSS styles.
-- **Day 2:** **HTML Semantic Updates** - Refactored older code snippets to use semantic HTML5 elements for better accessibility.
-- **Day 3:** **CSS Processing & Styling** - Used CSS Processors (Sass/Less) to update legacy stylesheets according to the company's new UI/UX design principles.
-- **Day 4:** **Responsive Design Implementation** - Implemented Flexbox and Bootstrap components to ensure the assigned module is fully responsive.
-- **Day 5:** **Code Review & Finalizing UI** - Pushed frontend changes to GitHub, requested a code review from a senior developer, and resolved comments.
+## Week 2: Front End Foundation (HTML & CSS)
+**Weekly Objective:** Review front-end fundamentals and understand web accessibility and responsive design.
+- **Day 1:** **HTML5 Semantic Structure** - Reviewed semantic HTML elements to improve web accessibility and SEO.
+- **Day 2:** **CSS3 Fundamentals** - Practiced layout techniques using CSS Box Model, positioning, and styling.
+- **Day 3:** **Flexbox & Grid Layouts** - Built sample page layouts using modern CSS Flexbox and Grid.
+- **Day 4:** **Responsive Web Design** - Used media queries to make a sample webpage mobile-friendly and responsive.
+- **Day 5:** **CSS Frameworks Introduction** - Explored utility-first styling (like Tailwind CSS) or component libraries (like Bootstrap) used by the company.
 
 ---
 
-## Week 3: JavaScript Implementation & DOM Manipulation
-**Weekly Objective:** Add interactivity to the assigned frontend module using vanilla JavaScript before transitioning to frameworks.
-- **Day 1:** **JavaScript State & DOM** - Wrote vanilla JavaScript functions to handle basic DOM manipulation within the assigned web application module.
-- **Day 2:** **Handling User Events** - Implemented event listeners across form inputs, utilizing JavaScript objects to format collected data.
-- **Day 3:** **Data Formatting & JSON** - Created scripts to parse and format mock JSON data simulating backend API responses.
-- **Day 4:** **ES6 Refactoring** - Refactored old JavaScript code using modern ES6 features (Arrow functions, Map, `let`/`const`) to meet company coding standards.
-- **Day 5:** **Sprint Demo & Retrospective** - Presented the functional, interactive HTML/JS module during the sprint demo and participated in the retrospective.
+## Week 3: JavaScript Core & DOM Manipulation
+**Weekly Objective:** Build interactive web modules using vanilla JavaScript and understand core programming concepts.
+- **Day 1:** **JavaScript Fundamentals** - Reviewed core concepts: variables (`let`/`const`), data types, and functions.
+- **Day 2:** **DOM Manipulation** - Wrote scripts to dynamically select, add, and modify HTML elements on a page.
+- **Day 3:** **Event Handling** - Implemented event listeners (clicks, form submissions) to create interactive user experiences.
+- **Day 4:** **ES6+ Features** - Refactored code using modern syntax: arrow functions, template literals, destructuring, and spread operators.
+- **Day 5:** **Array Methods & Mini-Project** - Used `map`, `filter`, and `reduce` to process data and built a small interactive module (e.g., a dynamic list).
 
 ---
 
-## Week 4: Introduction to React.js Integration
-**Weekly Objective:** Transition the vanilla JavaScript/HTML module into a fully componentized React.js application.
-- **Day 1:** **React Architecture Overview** - Attended a senior developer session on how React.js is utilized within the company's web application.
-- **Day 2:** **Componentizing UI** - Broke down the previously built HTML module into reusable React functional components and JSX.
-- **Day 3:** **Props & State Management** - Implemented React state hooks to manage data flow locally within the newly created components.
-- **Day 4:** **Dynamic Rendering** - Used the JavaScript `map` function within JSX to dynamically render lists of data (e.g., product lists or user tables).
-- **Day 5:** **Integrating Bootstrap with React** - Replaced standard CSS with React-Bootstrap library components to streamline the UI design. Pushed code for review.
+## Week 4: Introduction to React.js
+**Weekly Objective:** Transition from vanilla JavaScript to building component-based user interfaces with React.js.
+- **Day 1:** **React Architecture Overview** - Learned about the Virtual DOM, JSX syntax, and why React is used for Single Page Applications (SPAs).
+- **Day 2:** **Creating Components** - Built reusable functional components to break down a larger UI into smaller pieces.
+- **Day 3:** **Props & Data Passing** - Passed data from parent to child components using `props`.
+- **Day 4:** **Managing State (`useState`)** - Introduced the `useState` hook to manage local component state and user interactions.
+- **Day 5:** **Handling Forms in React** - Built a controlled form component capturing user inputs and handling submissions.
 
 ---
 
-## Week 5: Advanced React & API Consumption
-**Weekly Objective:** Connect the frontend React application to mock external services and handle complex state.
-- **Day 1:** **API Integration Strategy** - Studied the company's approach to REST APIs, HTTP methods, and data payload structures.
-- **Day 2:** **Fetching Data (Front End)** - Used the `fetch` API (or Axios) inside React `useEffect` hooks to pull data from a mock company endpoint.
-- **Day 3:** **Asynchronous Handling & Promises** - Handled asynchronous loading states, errors, and promise resolutions within the React UI gracefully.
-- **Day 4:** **Form Handling in React** - Built a complex form component capturing user inputs, validating them, and structuring the POST request payload.
-- **Day 5:** **TypeScript Introduction** - Reviewed an existing company project written in TypeScript to understand how strong typing prevents runtime errors.
+## Week 5: Advanced React & External APIs
+**Weekly Objective:** Learn how to handle side effects in React and fetch data from external APIs.
+- **Day 1:** **The `useEffect` Hook** - Learned how to handle side effects (like data fetching) and component lifecycle events.
+- **Day 2:** **Fetching Data (REST APIs)** - Used the `fetch` API (or Axios) to pull data from a public mock API (e.g., JSONPlaceholder).
+- **Day 3:** **Displaying dynamic data** - Mapped over fetched JSON data and rendered it dynamically in the React UI.
+- **Day 4:** **Error Handling & Loading States** - Implemented visual loading indicators and error messages during data fetching.
+- **Day 5:** **React Router Basics** - Implemented basic client-side routing using React Router to navigate between different pages in the app.
 
 ---
 
-## Week 6: Back End Fundamentals & Database Design
-**Weekly Objective:** Shift focus to the backend, designing database schemas, and understanding core DBMS concepts.
-- **Day 1:** **Back End Architecture Review** - Reviewed the architectural flow of how the company routes client commands to the server layer.
-- **Day 2:** **DBMS & ACID Properties** - Studied Database Management Systems, ensuring an understanding of ACID principles for secure financial/user transactions.
-- **Day 3:** **Relational vs. Non-Relational Review** - Participated in a session comparing SQL databases against NoSQL models like MongoDB.
-- **Day 4:** **Schema Design (MongoDB)** - Designed a MongoDB document schema for a new feature (e.g., "User Profiles" or "Order History").
-- **Day 5:** **Database Provisioning** - Set up a local MongoDB instance and a basic SQL database to practice creating collections and tables.
+## Week 6: Back End Fundamentals (Node.js & Express.js)
+**Weekly Objective:** Shift focus to the backend, learning how servers work and building a basic Node.js application.
+- **Day 1:** **Server Architecture & HTTP** - Studied how clients and servers communicate handling GET, POST, PUT, and DELETE methods.
+- **Day 2:** **Node.js Basics** - Initialized a new Node.js project using `npm` and understood the `package.json` file.
+- **Day 3:** **Introduction to Express.js** - Set up a basic Express.js web server and created simple routes.
+- **Day 4:** **Handling Requests & Responses** - Learned how to extract data from request parameters, queries, and body payloads.
+- **Day 5:** **Express Middleware** - Implemented simple middleware for logging requests and parsing JSON data.
 
 ---
 
-## Week 7: Building Node.js & Express.js Services
-**Weekly Objective:** Develop a robust backend service using Node.js to power the React application.
-- **Day 1:** **Node.js Initialization** - Initialized a new backend microservice repository using Node.js and installed necessary dependencies.
-- **Day 2:** **Express.js Routing** - Built fundamental Express.js routes to handle generic GET, POST, PUT, and DELETE HTTP requests.
-- **Day 3:** **Middleware & Processing** - Implemented basic middleware for logging requests and parsing JSON body payloads.
-- **Day 4:** **REST API Implementation** - Standardized the Express routes into a clean REST API structure aligning with company API protocols.
-- **Day 5:** **Connecting Node.js to MongoDB** - Integrated the MongoDB driver (or Mongoose) into the Node.js service to save and retrieve real data.
+## Week 7: Building RESTful APIs
+**Weekly Objective:** Develop a well-structured REST API to serve data to the frontend application.
+- **Day 1:** **REST API Principles** - Learned standard conventions for designing and structuring RESTful API endpoints.
+- **Day 2:** **Building CRUD Endpoints** - Implemented Create, Read, Update, and Delete routes for a specific resource (e.g., "Users" or "Products").
+- **Day 3:** **Controller & Router Separation** - Refactored Express code to separate routing logic from controller functions for cleaner code.
+- **Day 4:** **API Testing with Postman** - Used Postman to test all API endpoints manually and verify correct HTTP status codes.
+- **Day 5:** **Error Handling in Express** - Implemented a global error-handling middleware to catch and format API errors gracefully.
 
 ---
 
-## Week 8: Java & Spring Boot Backend Development
-**Weekly Objective:** Understand enterprise-grade backend development utilizing Java and Spring Boot.
-- **Day 1:** **Java Microservices Overview** - Shadowed a senior backend developer to observe how Java is used for high-performance microservices.
-- **Day 2:** **Spring Boot Initialization** - Used Spring Initializr and Apache Maven to configure a new basic Java Spring Boot application.
-- **Day 3:** **Creating Spring Controllers** - Wrote a Spring Boot REST Controller replicating the functionality built previously in Node.js.
-- **Day 4:** **Implementing Core Logic** - Applied Object-Oriented principles to structure Java service layers separate from the API controllers.
-- **Day 5:** **Code Review & Backend Demo** - Submitted the Spring Boot service code for peer review and demoed the working API endpoints to the team.
+## Week 8: Databases & MongoDB
+**Weekly Objective:** Understand NoSQL databases and integrate MongoDB into the Node.js backend.
+- **Day 1:** **Database Concepts (SQL vs NoSQL)** - Discussed the differences between Relational and Non-Relational databases and why MongoDB is popular for MERN apps.
+- **Day 2:** **MongoDB Cloud Setup** - Created a free cluster on MongoDB Atlas and connected to it using MongoDB Compass.
+- **Day 3:** **Introduction to Mongoose** - Installed Mongoose ODM and connected the Express server to the MongoDB database.
+- **Day 4:** **Defining Schemas & Models** - Created Mongoose schemas specifying data types, required fields, and default values.
+- **Day 5:** **Database Operations** - Replaced mock arrays in the API with real Mongoose database queries (`.find()`, `.create()`, `.findByIdAndUpdate()`).
 
 ---
 
-## Week 9: Full Stack Integration (React + Backend + DB)
-**Weekly Objective:** Achieve full-stack connectivity by linking the React frontend to the newly built backend API and database.
-- **Day 1:** **CORS Configuration & Connectivity** - Configured Cross-Origin Resource Sharing (CORS) on the backend to allow requests from the React app.
-- **Day 2:** **End-to-End Data Flow (Read)** - Successfully fetched data from the MongoDB database via the Spring Boot (or Node.js) API and displayed it in React.
-- **Day 3:** **End-to-End Data Flow (Write)** - Managed a POST request from the React form, routing it through the API, and verifying insertion into the database.
-- **Day 4:** **Full CRUD Completion** - Finished implementing complete End-to-End capabilities for Create, Read, Update, and Delete operations.
-- **Day 5:** **Bug Fixing & Optimization** - Debugged network latency issues and optimized exactly how the React components update upon database changes.
+## Week 9: Full Stack Integration
+**Weekly Objective:** Connect the React frontend application to the custom Node.js/MongoDB backend.
+- **Day 1:** **CORS Configuration** - Configured Cross-Origin Resource Sharing (CORS) on the backend to accept requests from the React development server.
+- **Day 2:** **Connecting React to the API (GET)** - Updated React components to fetch and display data from the newly created personal API.
+- **Day 3:** **Connecting React to the API (POST/PUT/DELETE)** - Wired up React forms and buttons to send data back to the server to modify the database.
+- **Day 4:** **End-to-End Debugging** - Practiced reading network tabs and console logs to trace errors across the stack.
+- **Day 5:** **Environment Variables** - Secured sensitive information (like Database URIs) using `.env` files in both React and Node.js.
 
 ---
 
-## Week 10: Security by Design & Authentication
-**Weekly Objective:** Implement fundamental security practices and application-level authentication.
-- **Day 1:** **Security Principles Overview** - Reviewed the company's guidelines on application security testing and secure design methods.
-- **Day 2:** **Implementing Basic Authentication** - Added a simple login endpoint to the backend service to verify user credentials against a database table.
-- **Day 3:** **JWT (JSON Web Tokens)** - Integrated JWT generation upon successful login and secured specific backend routes to require the token.
-- **Day 4:** **Frontend Route Protection** - Updated the React application to store the JWT securely and block rendering of certain pages if unauthenticated.
-- **Day 5:** **Security Refactoring** - Sanitized all database inputs to prevent NoSQL/SQL injection vulnerabilities based on senior developer feedback.
+## Week 10: State Management & UI Polish
+**Weekly Objective:** Manage complex state across the application and improve the overall user interface.
+- **Day 1:** **Prop Drilling Problem** - Identified issues passing data down many levels of components and learned about state management solutions.
+- **Day 2:** **React Context API** - Implemented Context API to share global data (like user themes or generic app data) across the app without prop drilling.
+- **Day 3:** **UI Component Libraries** - Integrated a UI library (like Material-UI, Chakra UI, or Bootstrap) to enhance the application's look and feel.
+- **Day 4:** **Form Validation (Frontend)** - Added client-side validation to React forms to provide immediate feedback to users.
+- **Day 5:** **Form Validation (Backend)** - Implemented server-side validation using libraries like `Joi` or `express-validator` to ensure data integrity.
 
 ---
 
-## Week 11: Application Testing & Quality Assurance
-**Weekly Objective:** Write automated tests and perform manual system validation.
-- **Day 1:** **Unit Testing Automation** - Wrote automated unit tests utilizing a testing framework (like Jest or JUnit) for backend utility functions.
-- **Day 2:** **Frontend Component Testing** - Implemented basic tests to ensure React components render correctly without crashing.
-- **Day 3:** **API Integration Testing** - Used tools like Postman (or Newman scripts) to run automated integration tests against the REST API endpoints.
-- **Day 4:** **System & Functional Testing** - Performed manual end-to-end system testing, acting as a user traversing the entire application flow.
-- **Day 5:** **Resolving QA Tickets** - Addressed bugs and edge cases flagged during the User Acceptance Testing phase and pushed the fixes.
+## Week 11: Authentication & Security
+**Weekly Objective:** Implement secure user registration and login functionality.
+- **Day 1:** **Authentication Basics** - Discussed the concepts of Authentication (who you are) vs. Authorization (what you can do).
+- **Day 2:** **Password Hashing** - Used `bcrypt` in Node.js to securely hash user passwords before saving them directly to the database.
+- **Day 3:** **JSON Web Tokens (JWT)** - Implemented JWT generation on the backend upon successful user login.
+- **Day 4:** **Protecting Backend Routes** - Created custom authentication middleware to verify JWTs and protect sensitive API endpoints.
+- **Day 5:** **Protecting Frontend Routes** - Updated React to store the JWT securely and created Protected Routes that redirect unauthenticated users.
 
 ---
 
-## Week 12: Configuration Management & CI/CD Pipelines
-**Weekly Objective:** Transition from local development to production-readiness utilizing Continuous Integration tools.
-- **Day 1:** **DevOps & Deployment Strategy** - Reviewed the company's DevOps strategy regarding how code moves from GitHub to production servers.
-- **Day 2:** **GitHub Actions & CI** - Configured a basic CI/CD pipeline script (e.g., GitHub Actions) to run the automated unit tests whenever code is pushed.
-- **Day 3:** **Build Automation** - Automated the "build" process for the React application so the pipeline generates the production-ready static files.
-- **Day 4:** **Environment Variables Handling** - Separated configuration (database URIs, secret keys) from code using secure environment variable management.
-- **Day 5:** **Pipeline Troubleshooting** - Debugged failing CI builds alongside a DevOps engineer, ensuring stable automated test execution.
+## Week 12: Internship Project Phase - Planning & Setup
+**Weekly Objective:** Begin developing the final internship capstone project, applying all learned full-stack skills.
+- **Day 1:** **Project Ideation & Requirements** - Defined the scope and features of the final full-stack project (e.g., an Inventory Manager or Task Tracker).
+- **Day 2:** **Database Schema Design** - Designed the MongoDB collections and relationships required for the project.
+- **Day 3:** **API Endpoints Planning** - Documented the required RESTful API routes needed to support the frontend application.
+- **Day 4:** **Project Initialization** - Set up the GitHub repositories for both frontend and backend and initialized the base structures.
+- **Day 5:** **Initial Backend Development** - Started implementing the core models, routes, and controllers for the project.
 
 ---
 
-## Week 13: Containerization using Docker
-**Weekly Objective:** Package the full-stack application natively into Docker containers for uniform deployment.
-- **Day 1:** **Docker Architecture Training** - Studied Docker principles and how containerization solves the "it works on my machine" problem.
-- **Day 2:** **Dockerizing the Backend** - Wrote a standard `Dockerfile` for the Node.js (or Spring Boot) API mapping the appropriate exposure ports.
-- **Day 3:** **Dockerizing the Frontend** - Created a multi-stage `Dockerfile` to build the React app and serve its static files using Nginx.
-- **Day 4:** **Docker Compose Setup** - Wrote a cohesive `docker-compose.yml` file to spin up the UI, API, and a localized MongoDB container simultaneously.
-- **Day 5:** **Local Container Testing** - Shut down all local servers and thoroughly tested the application relying entirely on the Docker Compose network.
+## Week 13: Internship Project Phase - Core Features
+**Weekly Objective:** Focus on building the core business logic and frontend views of the capstone project.
+- **Day 1:** **Backend CRUD Completion** - Finished integrating the core API endpoints and tested them via Postman.
+- **Day 2:** **Frontend Scaffold & Routing** - Set up React Router, navigation menus, and base page layouts.
+- **Day 3:** **Implementing Auth in Project** - Wired up the React login/register pages to the respective backend endpoints.
+- **Day 4:** **Core Feature Development (Read/Create)** - Built the primary dashboard to display database records and forms to create new ones.
+- **Day 5:** **Code Review Check-in** - Pushed current code to GitHub and requested a progress review from a mentor/manager.
 
 ---
 
-## Week 14: Kubernetes & Orchestration Concepts
-**Weekly Objective:** Move beyond simple containers into enterprise-level orchestration scaling utilizing Kubernetes.
-- **Day 1:** **Kubernetes Overview** - Shadowed the DevOps team to understand how Kubernetes orchestrates scaling, self-healing, and networking.
-- **Day 2:** **Creating Kubernetes Manifests** - Drafted specific YAML manifest files defining Kubernetes Deployments and Services for the intern application.
-- **Day 3:** **Testing with MiniKube** - Spun up a local MiniKube cluster and applied the YAML manifests to deploy the application locally in Kubernetes.
-- **Day 4:** **Scaling & Load Balancing** - Scaled the backend deployment to 3 replica pods to observe how Kubernetes balances request traffic natively.
-- **Day 5:** **Simulating Pod Failures** - Deleted active pods manually to verify the Kubernetes orchestration self-healing mechanics automatically spin up replacements.
+## Week 14: Internship Project Phase - Polish & Bug Fixing
+**Weekly Objective:** Complete remaining features, refine the UI/UX, and squash bugs.
+- **Day 1:** **Core Feature Development (Update/Delete)** - Completed the remaining interaction functions on the frontend dashboard.
+- **Day 2:** **UI/UX Refinements** - Improved styling, added loading spinners, empty states, and responsive mobile adaptations.
+- **Day 3:** **Edge Case Testing** - Tested application boundaries (e.g., submitting empty forms, navigating to false URLs).
+- **Day 4:** **Bug Flushing** - Resolved issues found during manual testing and optimized slow API calls.
+- **Day 5:** **Code Cleanup** - Removed `console.logs`, commented complex logic, and organized the file structure cleanly.
 
 ---
 
-## Week 15: Application Monitoring & Disaster Recovery
-**Weekly Objective:** Integrate production logging and understand disaster recovery workflows.
-- **Day 1:** **Application Monitoring Tools** - Reviewed dashboards in standard application monitoring tools (like Prometheus, Grafana, or Datadog) used by the company.
-- **Day 2:** **Centralized Logging Implementation** - Augmented backend API code to output structured JSON logs compatible with centralized logging aggregation.
-- **Day 3:** **Performance & Load Metrics** - Evaluated application performance logs to spot database queries causing high latency under load.
-- **Day 4:** **Disaster Recovery Planning** - Participated in a disaster recovery tabletop exercise simulating an operational database failure and restoration process.
-- **Day 5:** **Automated Alerts Configuration** - Wrote a simple configuration specifying when an alert should trigger (e.g., if the CPU usage of a specific pod exceeds 80%).
+## Week 15: Deployment & Hosting
+**Weekly Objective:** Take the application from a local environment to the live internet.
+- **Day 1:** **Deployment Concepts** - Learned the difference between frontend static hosting and backend server hosting.
+- **Day 2:** **Backend Deployment** - Deployed the Node.js/Express backend to a hosting provider (e.g., Render, Railway, or Heroku).
+- **Day 3:** **Frontend Deployment** - Deployed the React application to a CDN-hosted service (e.g., Vercel or Netlify).
+- **Day 4:** **Environment Config for Production** - Configured production environment variables and updated CORS policies to allow the deployed frontend URL.
+- **Day 5:** **Live Testing & QA** - Verified full application functionality on the live production URLs.
 
 ---
 
 ## Week 16: Project Handover, Documentation, and Final Presentation
-**Weekly Objective:** Finalize the internship by wrapping up documentation, performing a final handover, and presenting the completed project.
-- **Day 1:** **Final Code Refactoring & Polish** - Completed a final review of the codebase, ensuring it adheres rigidly to company styling, security, and deployment standards.
-- **Day 2:** **Internal Documentation** - Wrote extensive markdown documentation detailing the architecture, API routes, and how to run/deploy the module locally.
-- **Day 3:** **Preparing the Handover** - Met with the senior developers to conduct a technical handover of the project code, explaining specific logic choices and technical debt.
-- **Day 4:** **Presentation Preparation** - Built a short presentation outlining the technologies learned, challenges overcome, and the final state of the application.
-- **Day 5:** **Final Demo & Offboarding** - Presented the Full-Stack module to the engineering team and management, formally marking the completion of the internship.
+**Weekly Objective:** Wrap up the internship by documenting the project and presenting the final results.
+- **Day 1:** **Writing README & Setup Guide** - Detailed the installation steps, environment variables, and tech stack in the GitHub `README.md`.
+- **Day 2:** **Code Documentation** - Ensured inline comments explain complex business logic for future developers.
+- **Day 3:** **Preparing the Handover** - Met with the internship mentor to present a technical handover of the customized code.
+- **Day 4:** **Presentation Preparation** - Created a slidedeck showcasing challenges faced, skills learned, and a demo line-up of the live app.
+- **Day 5:** **Final Demo & Conclusion** - Presented the finalized Full-Stack MERN application to the team, formally completing the internship!
