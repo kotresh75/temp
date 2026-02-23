@@ -1,0 +1,175 @@
+Organizing the Enterprise-process
+Five main steps involved in the process of organizing an enterprise. 
+1. Determining Activities 
+2. Grouping of Activities 
+3. Assigning Duties 
+4. Delegating Authority 
+5. Coordinating Activities.
+----
+Understanding Business Activities
+----
+Digital transformation 
+----
+Business Process Automation
+----
+business process
+----
+Workflow
+----
+Full-Stack Development
+----
+Components of Full stack development 
+Front End
+BackEnd
+----
+Front end Languages: 
+HTML
+CSS
+JavaScript
+Libraries
+CSS Processors
+Build Tools
+Frameworks
+----
+Front End Frameworks and Libraries:
+React.js
+----
+Back end: It refers to the server-side development of web application or website with a primary focus on how the website works. It is responsible for managing the database through queries and APIs by client-side commands. 
+Java 
+Python
+JavaScript
+Node.js 
+----
+Database
+MongoDB: MongoDB, the most popular NoSQL database, is an open source document-oriented database. The term ‘NoSQL’ means ‘non-relational’. It means that MongoDB isn’t based on the table-like relational database structure but provides an altogether different mechanism for storage and retrieval of data.
+Sql: Structured Query Language is a standard Database language which is used to create, maintain and retrieve the relational database.
+----
+Full stack development Tools
+Visual Studio Code
+GitHub
+Electron
+----
+Design Thinking
+----
+How to create project plan
+----
+product backlog
+Steps to create a product backlog
+----
+Software development in agile methodology 
+----
+user stories 
+----
+Design Principles
+----
+Architecture Pattern:
+----
+Design methods for security
+----
+Design Principles for UI/UX
+----
+Technology for Application development 
+JavaScript
+Java
+HTML
+C
+Git
+C++
+Python
+CSS
+Sql
+----
+Tools and framework for Application development
+GitHub
+IntelliJ IDEA
+Google Docs
+Bootstrap
+Node.js
+React JS
+----   
+DevOps(with all 8 steps)
+DevOps Engineering Practices
+Configuration Management
+Agile planning in DevOps
+DevOps tools
+GitHub
+CLOUD BASICS Concepts(with 3 models)
+CI/CD tool 
+Full Stack Developers and DevOps 
+----
+HTML
+CSS
+JavaScript
+VS Code
+JSON
+JavaScript Objects & Sets
+JSX
+React Components
+ES6
+Map
+Type Script(Not more)
+----
+React.js
+Node.js
+Express.js
+MongoDB
+JSX
+Object Oriented Concepts and Design Principles
+Data structure
+Java
+Spring Boot
+Spring
+Ecplise
+Apache Maven
+Web Application
+API
+REST API
+API Protocals
+REST
+HTTP
+HTTPs
+HTTP Methods
+----
+ACID
+NoSQL
+SQL
+Data Base Management System(DBMS)
+MongoDB
+CRUD
+----
+Application Testing
+Manual Testing
+Automation Testing
+Unit Testing
+Integration Testing
+System Testing
+User Acceptance Testing
+Performance Testing
+Security Testing
+Functional Testing
+GUI Testing
+----
+Deployment
+Manual Deployment
+Automated Deployment
+Continuous Deployment
+Containerization
+Docker
+Kubernetes
+----
+Orchestration
+Orchestration tools
+1. Kubernetes
+2. Openshift
+3. Nomad
+4. Docker Swarm
+5. Docker Compose
+6. MiniKube
+7. Marathon
+8. Cloudify
+----
+Deployment Strategies
+Disaster Recovery
+Application Monitoring(With all types of monitoring)
+Logging
+----
