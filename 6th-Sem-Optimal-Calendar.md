@@ -1,6 +1,6 @@
-# Internship Optimal Calendar (Dec 2025 - Apr 2026)
+# Optimal Calendar (Dec 2025 - Apr 2026)
 
-### Internship Summary
+### Summary
 * **Total Calendar Days:** 111 Days (Dec 22, 2025 – Apr 11, 2026)
 * **Total Holidays & Off Days:** 21 Days (15 Sundays + 6 Public Holidays)
 * **Total Working Days Completed:** 90 Days
@@ -78,4 +78,5 @@
 **Holidays & Weekends (Apr 2026):**
 *   **Apr 03:** Good Friday
 *   **Apr 05:** Sunday
-*(Note: April 12 & 13 omitted as requested)*
+*   **Apr 12:** Sunday
+*(Note: April 13 omitted as requested)*
