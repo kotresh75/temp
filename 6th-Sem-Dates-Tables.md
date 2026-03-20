@@ -3,7 +3,7 @@
 | 22-12-2025 | Monday | Day 1 | 22 to 27 | 1 |
 | 23-12-2025 | Tuesday | Day 2 | 22 to 27 | 1 |
 | 24-12-2025 | Wednesday | Day 3 | 22 to 27 | 1 |
-| 25-12-2025 | Thursday | Christmas Day | 22 to 27 | 1 |
+| ~25-12-2025 | Thursday | Christmas Day | 22 to 27 | 1 |
 | 26-12-2025 | Friday | Day 4 | 22 to 27 | 1 |
 | 27-12-2025 | Saturday | Day 5 | 22 to 27 | 1 |
 | ~28-12-2025 | Sunday | Sunday | | |
@@ -24,7 +24,7 @@
 | 12-01-2026 | Monday | Day 18 | 12 to 17 | 4 |
 | 13-01-2026 | Tuesday | Day 19 | 12 to 17 | 4 |
 | 14-01-2026 | Wednesday | Day 20 | 12 to 17 | 4 |
-| 15-01-2026 | Thursday | Makara Sankranti | 12 to 17 | 4 |
+| ~15-01-2026 | Thursday | Makara Sankranti | 12 to 17 | 4 |
 | 16-01-2026 | Friday | Day 21 | 12 to 17 | 4 |
 | 17-01-2026 | Saturday | Day 22 | 12 to 17 | 4 |
 | ~18-01-2026 | Sunday | Sunday | | |
@@ -35,7 +35,7 @@
 | 23-01-2026 | Friday | Day 27 | 19 to 24 | 5 |
 | 24-01-2026 | Saturday | Day 28 | 19 to 24 | 5 |
 | ~25-01-2026 | Sunday | Sunday | | |
-| 26-01-2026 | Monday | Republic Day | 26 to 31 | 6 |
+| ~26-01-2026 | Monday | Republic Day | 26 to 31 | 6 |
 | 27-01-2026 | Tuesday | Day 29 | 26 to 31 | 6 |
 | 28-01-2026 | Wednesday | Day 30 | 26 to 31 | 6 |
 | 29-01-2026 | Thursday | Day 31 | 26 to 31 | 6 |
@@ -87,9 +87,9 @@
 | 16-03-2026 | Monday | Day 70 | 16 to 21 | 13 |
 | 17-03-2026 | Tuesday | Day 71 | 16 to 21 | 13 |
 | 18-03-2026 | Wednesday | Day 72 | 16 to 21 | 13 |
-| 19-03-2026 | Thursday | Ugadi | 16 to 21 | 13 |
+| ~19-03-2026 | Thursday | Ugadi | 16 to 21 | 13 |
 | 20-03-2026 | Friday | Day 73 | 16 to 21 | 13 |
-| 21-03-2026 | Saturday | Khutub-e-Ramzan | 16 to 21 | 13 |
+| ~21-03-2026 | Saturday | Khutub-e-Ramzan | 16 to 21 | 13 |
 | ~22-03-2026 | Sunday | Sunday | | |
 | 23-03-2026 | Monday | Day 74 | 23 to 28 | 14 |
 | 24-03-2026 | Tuesday | Day 75 | 23 to 28 | 14 |
@@ -99,10 +99,10 @@
 | 28-03-2026 | Saturday | Day 79 | 23 to 28 | 14 |
 | ~29-03-2026 | Sunday | Sunday | | |
 | 30-03-2026 | Monday | Day 80 | 30 to 4 | 15 |
-| 31-03-2026 | Tuesday | Mahavir Jayanti | 30 to 4 | 15 |
+| ~31-03-2026 | Tuesday | Mahavir Jayanti | 30 to 4 | 15 |
 | 01-04-2026 | Wednesday | Day 81 | 30 to 4 | 15 |
 | 02-04-2026 | Thursday | Day 82 | 30 to 4 | 15 |
-| 03-04-2026 | Friday | Good Friday | 30 to 4 | 15 |
+| ~03-04-2026 | Friday | Good Friday | 30 to 4 | 15 |
 | 04-04-2026 | Saturday | Day 83 | 30 to 4 | 15 |
 | ~05-04-2026 | Sunday | Sunday | | |
 | 06-04-2026 | Monday | Day 84 | 6 to 11 | 16 |
