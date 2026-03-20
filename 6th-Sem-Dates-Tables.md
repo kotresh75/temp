@@ -35,12 +35,12 @@
 | 23-01-2026 | Friday | Day 27 | 19 to 24 | 5 |
 | 24-01-2026 | Saturday | Day 28 | 19 to 24 | 5 |
 | 25-01-2026 | Sunday | Sunday | | |
-| 26-01-2026 | Monday | Republic Day | 27 to 31 | 6 |
-| 27-01-2026 | Tuesday | Day 29 | 27 to 31 | 6 |
-| 28-01-2026 | Wednesday | Day 30 | 27 to 31 | 6 |
-| 29-01-2026 | Thursday | Day 31 | 27 to 31 | 6 |
-| 30-01-2026 | Friday | Day 32 | 27 to 31 | 6 |
-| 31-01-2026 | Saturday | Day 33 | 27 to 31 | 6 |
+| 26-01-2026 | Monday | Republic Day | 26 to 31 | 6 |
+| 27-01-2026 | Tuesday | Day 29 | 26 to 31 | 6 |
+| 28-01-2026 | Wednesday | Day 30 | 26 to 31 | 6 |
+| 29-01-2026 | Thursday | Day 31 | 26 to 31 | 6 |
+| 30-01-2026 | Friday | Day 32 | 26 to 31 | 6 |
+| 31-01-2026 | Saturday | Day 33 | 26 to 31 | 6 |
 | 01-02-2026 | Sunday | Sunday | | |
 | 02-02-2026 | Monday | Day 34 | 2 to 7 | 7 |
 | 03-02-2026 | Tuesday | Day 35 | 2 to 7 | 7 |
@@ -84,32 +84,32 @@
 | 13-03-2026 | Friday | Day 68 | 9 to 14 | 12 |
 | 14-03-2026 | Saturday | Day 69 | 9 to 14 | 12 |
 | 15-03-2026 | Sunday | Sunday | | |
-| 16-03-2026 | Monday | Day 70 | 16 to 20 | 13 |
-| 17-03-2026 | Tuesday | Day 71 | 16 to 20 | 13 |
-| 18-03-2026 | Wednesday | Day 72 | 16 to 20 | 13 |
-| 19-03-2026 | Thursday | Day 73 | 16 to 20 | 13 |
-| 20-03-2026 | Friday | Day 74 | 16 to 20 | 13 |
-| 21-03-2026 | Saturday | Ugadi | 16 to 20 | 13 |
+| 16-03-2026 | Monday | Day 70 | 16 to 21 | 13 |
+| 17-03-2026 | Tuesday | Day 71 | 16 to 21 | 13 |
+| 18-03-2026 | Wednesday | Day 72 | 16 to 21 | 13 |
+| 19-03-2026 | Thursday | Ugadi | 16 to 21 | 13 |
+| 20-03-2026 | Friday | Day 73 | 16 to 21 | 13 |
+| 21-03-2026 | Saturday | Khutub-e-Ramzan | 16 to 21 | 13 |
 | 22-03-2026 | Sunday | Sunday | | |
-| 23-03-2026 | Monday | Day 75 | 23 to 28 | 14 |
-| 24-03-2026 | Tuesday | Day 76 | 23 to 28 | 14 |
-| 25-03-2026 | Wednesday | Day 77 | 23 to 28 | 14 |
-| 26-03-2026 | Thursday | Day 78 | 23 to 28 | 14 |
-| 27-03-2026 | Friday | Day 79 | 23 to 28 | 14 |
-| 28-03-2026 | Saturday | Day 80 | 23 to 28 | 14 |
+| 23-03-2026 | Monday | Day 74 | 23 to 28 | 14 |
+| 24-03-2026 | Tuesday | Day 75 | 23 to 28 | 14 |
+| 25-03-2026 | Wednesday | Day 76 | 23 to 28 | 14 |
+| 26-03-2026 | Thursday | Day 77 | 23 to 28 | 14 |
+| 27-03-2026 | Friday | Day 78 | 23 to 28 | 14 |
+| 28-03-2026 | Saturday | Day 79 | 23 to 28 | 14 |
 | 29-03-2026 | Sunday | Sunday | | |
-| 30-03-2026 | Monday | Day 81 | 30 to 4 | 15 |
+| 30-03-2026 | Monday | Day 80 | 30 to 4 | 15 |
 | 31-03-2026 | Tuesday | Mahavir Jayanti | 30 to 4 | 15 |
-| 01-04-2026 | Wednesday | Day 82 | 30 to 4 | 15 |
-| 02-04-2026 | Thursday | Day 83 | 30 to 4 | 15 |
+| 01-04-2026 | Wednesday | Day 81 | 30 to 4 | 15 |
+| 02-04-2026 | Thursday | Day 82 | 30 to 4 | 15 |
 | 03-04-2026 | Friday | Good Friday | 30 to 4 | 15 |
-| 04-04-2026 | Saturday | Day 84 | 30 to 4 | 15 |
+| 04-04-2026 | Saturday | Day 83 | 30 to 4 | 15 |
 | 05-04-2026 | Sunday | Sunday | | |
-| 06-04-2026 | Monday | Day 85 | 6 to 11 | 16 |
-| 07-04-2026 | Tuesday | Day 86 | 6 to 11 | 16 |
-| 08-04-2026 | Wednesday | Day 87 | 6 to 11 | 16 |
-| 09-04-2026 | Thursday | Day 88 | 6 to 11 | 16 |
-| 10-04-2026 | Friday | Day 89 | 6 to 11 | 16 |
-| 11-04-2026 | Saturday | Day 90 | 6 to 11 | 16 |
+| 06-04-2026 | Monday | Day 84 | 6 to 11 | 16 |
+| 07-04-2026 | Tuesday | Day 85 | 6 to 11 | 16 |
+| 08-04-2026 | Wednesday | Day 86 | 6 to 11 | 16 |
+| 09-04-2026 | Thursday | Day 87 | 6 to 11 | 16 |
+| 10-04-2026 | Friday | Day 88 | 6 to 11 | 16 |
+| 11-04-2026 | Saturday | Day 89 | 6 to 11 | 16 |
 | 12-04-2026 | Sunday | Sunday | | |
 | 13-04-2026 | Monday | submitting and this date not counts | | |

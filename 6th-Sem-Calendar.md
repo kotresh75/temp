@@ -2,8 +2,8 @@
 
 ### Summary
 * **Total Calendar Days:** 111 Days (Dec 22, 2025 – Apr 11, 2026)
-* **Total Holidays & Off Days:** 21 Days (15 Sundays + 6 Public Holidays)
-* **Total Working Days Completed:** 90 Days
+* **Total Holidays & Off Days:** 22 Days (15 Sundays + 7 Public Holidays)
+* **Total Working Days Completed:** 89 Days
 
 ---
 
@@ -57,13 +57,14 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 01<br>(Off) | 02<br>(Day 58) | 03<br>(Day 59) | 04<br>(Day 60) | 05<br>(Day 61) | 06<br>(Day 62) | 07<br>(Day 63) |
 | 08<br>(Off) | 09<br>(Day 64) | 10<br>(Day 65) | 11<br>(Day 66) | 12<br>(Day 67) | 13<br>(Day 68) | 14<br>(Day 69) |
-| 15<br>(Off) | 16<br>(Day 70) | 17<br>(Day 71) | 18<br>(Day 72) | 19<br>(Day 73) | 20<br>(Day 74) | 21<br>(Ugadi) |
-| 22<br>(Off) | 23<br>(Day 75) | 24<br>(Day 76) | 25<br>(Day 77) | 26<br>(Day 78) | 27<br>(Day 79) | 28<br>(Day 80) |
-| 29<br>(Off) | 30<br>(Day 81) | 31<br>(Mahavir) | | | | |
+| 15<br>(Off) | 16<br>(Day 70) | 17<br>(Day 71) | 18<br>(Day 72) | 19<br>(Ugadi) | 20<br>(Day 73) | 21<br>(Khutub-e-Ramzan) |
+| 22<br>(Off) | 23<br>(Day 74) | 24<br>(Day 75) | 25<br>(Day 76) | 26<br>(Day 77) | 27<br>(Day 78) | 28<br>(Day 79) |
+| 29<br>(Off) | 30<br>(Day 80) | 31<br>(Mahavir) | | | | |
 
 **Holidays & Weekends (Mar 2026):**
 *   **Mar 01, 08, 15, 22, 29:** Sundays
-*   **Mar 21:** Ugadi
+*   **Mar 19:** Ugadi
+*   **Mar 21:** Khutub-e-Ramzan
 *   **Mar 31:** Mahavir Jayanti
 
 ---
@@ -72,8 +73,8 @@
 
 | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| | | | 01<br>(Day 82) | 02<br>(Day 83) | 03<br>(Good Fri) | 04<br>(Day 84) |
-| 05<br>(Off) | 06<br>(Day 85) | 07<br>(Day 86) | 08<br>(Day 87) | 09<br>(Day 88) | 10<br>(Day 89) | 11<br>(Day 90) |
+| | | | 01<br>(Day 81) | 02<br>(Day 82) | 03<br>(Good Fri) | 04<br>(Day 83) |
+| 05<br>(Off) | 06<br>(Day 84) | 07<br>(Day 85) | 08<br>(Day 86) | 09<br>(Day 87) | 10<br>(Day 88) | 11<br>(Day 89) |
 
 **Holidays & Weekends (Apr 2026):**
 *   **Apr 03:** Good Friday
