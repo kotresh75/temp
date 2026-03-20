@@ -28,10 +28,10 @@
 | 22/12/2025 | Monday | Day 1 | Orientation & Introduction | Reached the office. Attended the HR orientation, received the intern ID card, and met the assigned mentor. |
 | 23/12/2025 | Tuesday | Day 2 | Desk Setup & Software Installation | Set up the physical desk. Guided by the mentor to install necessary tools: VS Code, Google Chrome, Node.js, and Git. |
 | 24/12/2025 | Wednesday | Day 3 | Understanding the Tech Stack | Attended a high-level walkthrough session where a senior dev explained the MERN stack architecture. |
-| ~25/12/2025 | Thursday | **Christmas** (Holiday) | - | - |
+| (off)25/12/2025 | Thursday | **Christmas** (Holiday) | - | - |
 | 26/12/2025 | Friday | Day 4 | Basic Version Control (Git) | Practiced basic Git commands locally. The mentor explained the difference between git commit and git push. |
-| ~27/12/2025 | Saturday | Saturday (Off) | - | - |
-| ~28/12/2025 | Sunday | Sunday (Off) | - | - |
+| (off)27/12/2025 | Saturday | Saturday (Off) | - | - |
+| (off)28/12/2025 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -45,8 +45,8 @@
 | 31/12/2025 | Wednesday | Day 7 | The Box Model in Practice | Attended a desk-side session where a junior developer explained margins, padding, and borders. |
 | 01/01/2026 | Thursday | Day 8 | Simple Layouts with Flexbox | Refactored the CSS to use Flexbox. A colleague helped explain how justify-content works. |
 | 02/01/2026 | Friday | Day 9 | Responsive Design Basics | Added simple media queries to make the assigned layout look acceptable on mobile screen sizes. |
-| ~03/01/2026 | Saturday | Saturday (Off) | - | - |
-| ~04/01/2026 | Sunday | Sunday (Off) | - | - |
+| (off)03/01/2026 | Saturday | Saturday (Off) | - | - |
+| (off)04/01/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -60,8 +60,8 @@
 | 07/01/2026 | Wednesday | Day 12 | DOM Manipulation | Wrote a script to change text content and background colors on a dummy HTML page. |
 | 08/01/2026 | Thursday | Day 13 | Event Listeners | Expanded the previous script to include form validation before submission. |
 | 09/01/2026 | Friday | Day 14 | Friday Sync & Demo | Demonstrated the small interactive form to the mentor during the weekly 1-on-1 feedback session. |
-| ~10/01/2026 | Saturday | Saturday (Off) | - | - |
-| ~11/01/2026 | Sunday | Sunday (Off) | - | - |
+| (off)10/01/2026 | Saturday | Saturday (Off) | - | - |
+| (off)11/01/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -73,10 +73,10 @@
 | 12/01/2026 | Monday | Day 15 | What is React? | Shadowed a frontend developer who explained the concept of the Virtual DOM. |
 | 13/01/2026 | Tuesday | Day 16 | Setting up React (Vite) | Guided by a junior dev to set up a new React project using Vite. |
 | 14/01/2026 | Wednesday | Day 17 | Creating First Components | Rebuilt the HTML form from Week 3 as basic, static React functional components. |
-| ~15/01/2026 | Thursday | **Makara Sankranti** (Holiday) | - | - |
+| (off)15/01/2026 | Thursday | **Makara Sankranti** (Holiday) | - | - |
 | 16/01/2026 | Friday | Day 18 | Understanding Props | Learned how to pass static data from a parent component down to child components. |
-| ~17/01/2026 | Saturday | Saturday (Off) | - | - |
-| ~18/01/2026 | Sunday | Sunday (Off) | - | - |
+| (off)17/01/2026 | Saturday | Saturday (Off) | - | - |
+| (off)18/01/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -90,8 +90,8 @@
 | 21/01/2026 | Wednesday | Day 21 | Conditional Rendering | Implemented basic logic to show a Settings section only if user is marked as admin. |
 | 22/01/2026 | Thursday | Day 22 | Working with Arrays in State | Created a basic To-Do list component with proper state management. |
 | 23/01/2026 | Friday | Day 23 | Mentor Code Review | Submitted the To-Do list code to an internal intern GitHub repository for review. |
-| ~24/01/2026 | Saturday | Saturday (Off) | - | - |
-| ~25/01/2026 | Sunday | Sunday (Off) | - | - |
+| (off)24/01/2026 | Saturday | Saturday (Off) | - | - |
+| (off)25/01/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -100,13 +100,13 @@
 
 | Date | Day | Status | Task | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| ~26/01/2026 | Monday | **Republic Day** (Holiday) | - | - |
+| (off)26/01/2026 | Monday | **Republic Day** (Holiday) | - | - |
 | 27/01/2026 | Tuesday | Day 24 | Client-Server Architecture | Attended a whiteboard session outlining how React frontend talks to Node.js backend. |
 | 28/01/2026 | Wednesday | Day 25 | Node Setup & npm | Initialized a new Node.js project. Learned how to install external packages using npm. |
 | 29/01/2026 | Thursday | Day 26 | Building a Barebones Server | Wrote a basic Hello World server using Node.js built-in http module. |
 | 30/01/2026 | Friday | Day 27 | Introduction to Express.js | Switched to Express.js. Set up a simple server that responds with JSON data. |
-| ~31/01/2026 | Saturday | Saturday (Off) | - | - |
-| ~01/02/2026 | Sunday | Sunday (Off) | - | - |
+| (off)31/01/2026 | Saturday | Saturday (Off) | - | - |
+| (off)01/02/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -120,8 +120,8 @@
 | 04/02/2026 | Wednesday | Day 30 | Testing with Postman | Installed Postman. The mentor showed how to test the newly created GET routes. |
 | 05/02/2026 | Thursday | Day 31 | Handling URL Parameters | Modified the GET route to accept a parameter and return a specific object. |
 | 06/02/2026 | Friday | Day 32 | Handling POST Data | Created a POST route that accepts JSON data from Postman. |
-| ~07/02/2026 | Saturday | Saturday (Off) | - | - |
-| ~08/02/2026 | Sunday | Sunday (Off) | - | - |
+| (off)07/02/2026 | Saturday | Saturday (Off) | - | - |
+| (off)08/02/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -135,8 +135,8 @@
 | 11/02/2026 | Wednesday | Day 35 | Basic MongoDB Commands | Practiced basic Mongo shell commands (insertOne, find) to add and view mock records. |
 | 12/02/2026 | Thursday | Day 36 | Connecting Express to MongoDB | Guided by the mentor to install mongoose and establish a connection from Express server. |
 | 13/02/2026 | Friday | Day 37 | Defining a Basic Model | Created a simple Mongoose Schema (e.g., Employee model with Name, Department, Email). |
-| ~14/02/2026 | Saturday | Saturday (Off) | - | - |
-| ~15/02/2026 | Sunday | Sunday (Off) | - | - |
+| (off)14/02/2026 | Saturday | Saturday (Off) | - | - |
+| (off)15/02/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -150,8 +150,8 @@
 | 18/02/2026 | Wednesday | Day 40 | Handling API Errors | Added basic try...catch blocks to the routes with proper error status codes. |
 | 19/02/2026 | Thursday | Day 41 | Route Organization | Helped the mentor refactor the codebase, moving route logic into separate controller files. |
 | 20/02/2026 | Friday | Day 42 | End-of-Week Review | Demonstrated the working Postman-to-Database flow to the tech lead. |
-| ~21/02/2026 | Saturday | Saturday (Off) | - | - |
-| ~22/02/2026 | Sunday | Sunday (Off) | - | - |
+| (off)21/02/2026 | Saturday | Saturday (Off) | - | - |
+| (off)22/02/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -165,8 +165,8 @@
 | 25/02/2026 | Wednesday | Day 45 | Displaying Real Data | Replaced hardcoded data in React frontend with dynamic JSON data from the API. |
 | 26/02/2026 | Thursday | Day 46 | Submitting the Frontend Form | Wired up the React Add Employee form to send POST request to the backend. |
 | 27/02/2026 | Friday | Day 47 | Debugging Network Issues | Spent time learning how to use Chrome Network tab to inspect failed API requests. |
-| ~28/02/2026 | Saturday | Saturday (Off) | - | - |
-| ~01/03/2026 | Sunday | Sunday (Off) | - | - |
+| (off)28/02/2026 | Saturday | Saturday (Off) | - | - |
+| (off)01/03/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -180,8 +180,8 @@
 | 04/03/2026 | Wednesday | Day 50 | Styling the Data Table | Applied framework classes to style the raw HTML table displaying database records. |
 | 05/03/2026 | Thursday | Day 51 | Styling the Forms | Converted basic HTML input fields into styled framework components. |
 | 06/03/2026 | Friday | Day 52 | Responsive Checks | Tested newly styled application on a physical phone for mobile responsiveness. |
-| ~07/03/2026 | Saturday | Saturday (Off) | - | - |
-| ~08/03/2026 | Sunday | Sunday (Off) | - | - |
+| (off)07/03/2026 | Saturday | Saturday (Off) | - | - |
+| (off)08/03/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -195,8 +195,8 @@
 | 11/03/2026 | Wednesday | Day 55 | API Endpoints Design | Listed out the required API routes on a Google Doc and got them approved. |
 | 12/03/2026 | Thursday | Day 56 | Repository Setup | Created a new folder structure for the capstone project. Initialized Git, Node, and React. |
 | 13/03/2026 | Friday | Day 57 | Scaffolding the Backend | Set up the Express server, connected to MongoDB, and defined initial Mongoose models. |
-| ~14/03/2026 | Saturday | Saturday (Off) | - | - |
-| ~15/03/2026 | Sunday | Sunday (Off) | - | - |
+| (off)14/03/2026 | Saturday | Saturday (Off) | - | - |
+| (off)15/03/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -208,10 +208,10 @@
 | 16/03/2026 | Monday | Day 58 | Building the API Routes | Focused entirely on the backend, writing the CRUD routes for the primary resource. |
 | 17/03/2026 | Tuesday | Day 59 | Testing the API | Thoroughly tested all new endpoints using Postman. |
 | 18/03/2026 | Wednesday | Day 60 | Frontend Scaffolding & Routing | Set up React Router to handle navigation between pages. |
-| ~19/03/2026 | Thursday | **Ugadi** (Holiday) | - | - |
+| (off)19/03/2026 | Thursday | **Ugadi** (Holiday) | - | - |
 | 20/03/2026 | Friday | Day 61 | Integrating API (Read) | Connected the frontend Dashboard page to fetch and display data from the backend. |
-| ~21/03/2026 | Saturday | Saturday (Khutub-e-Ramzan) | - | - |
-| ~22/03/2026 | Sunday | Sunday (Off) | - | - |
+| (off)21/03/2026 | Saturday | Saturday (Khutub-e-Ramzan) | - | - |
+| (off)22/03/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -225,8 +225,8 @@
 | 25/03/2026 | Wednesday | Day 64 | UI Refinements | Added Loading messages while data is fetched and Success/Error alerts after submission. |
 | 26/03/2026 | Thursday | Day 65 | Peer Testing | Exchanged laptops with another intern to test each other applications and note bugs. |
 | 27/03/2026 | Friday | Day 66 | Bug Fixing | Addressed minor bugs found during peer testing. |
-| ~28/03/2026 | Saturday | Saturday (Off) | - | - |
-| ~29/03/2026 | Sunday | Sunday (Off) | - | - |
+| (off)28/03/2026 | Saturday | Saturday (Off) | - | - |
+| (off)29/03/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -236,12 +236,12 @@
 | Date | Day | Status | Task | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | 30/03/2026 | Monday | Day 67 | Writing the Project Report (Intro) | Drafted the introduction, objective, and software/hardware requirements section. |
-| ~31/03/2026 | Tuesday | **Mahavir Jayanti** (Holiday) | - | - |
+| (off)31/03/2026 | Tuesday | **Mahavir Jayanti** (Holiday) | - | - |
 | 01/04/2026 | Wednesday | Day 68 | Documenting the Architecture | Created simple diagrams showing frontend-backend-database interaction. |
 | 02/04/2026 | Thursday | Day 69 | Taking Screenshots | Captured and formatted screenshots of the working capstone project for the report. |
-| ~03/04/2026 | Friday | **Good Friday** (Holiday) | - | - |
-| ~04/04/2026 | Saturday | Saturday (Off) | - | - |
-| ~05/04/2026 | Sunday | Sunday (Off) | - | - |
+| (off)03/04/2026 | Friday | **Good Friday** (Holiday) | - | - |
+| (off)04/04/2026 | Saturday | Saturday (Off) | - | - |
+| (off)05/04/2026 | Sunday | Sunday (Off) | - | - |
 
 ---
 
@@ -255,7 +255,7 @@
 | 08/04/2026 | Wednesday | Day 72 | Internal Team Presentation | Gave a brief presentation demonstrating the capstone app and discussing the learning. |
 | 09/04/2026 | Thursday | Day 73 | Getting the Certificate | Printed the college report. Obtained official sign-offs and internship completion certificate. |
 | 10/04/2026 | Friday | Day 74 | Farewell Lunch | Handed over company ID and laptop. Celebrated with a farewell lunch with the tech team! |
-| ~11/04/2026 | Saturday | Saturday (Off) | - | - |
+| (off)11/04/2026 | Saturday | Saturday (Off) | - | - |
 
 ---
 
