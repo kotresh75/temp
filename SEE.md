@@ -120,34 +120,21 @@ Date: 09/02/2026
 | Audit | System activity logging |
 | Settings | System configuration, policies |
 
-#### Slide 9: Database Architecture & Core Entities
-**Architecture & Strategy:**
-- Embedded **SQLite3** configuration utilizing **Write-Ahead Logging (WAL)** for robust concurrent read/write operations.
-- **11 Core Tables** with strict Primary Key (UUID) and Foreign Key mapping.
+#### Slide 9: Database Architecture & ER Model
+- **Embedded Engine:** SQLite3 with Write-Ahead Logging (WAL) for concurrency.
+- **Entity Overview:** 11 heavily relational core tables connected via UUID foreign keys.
+- **Key Modules:**
+  - **User & Access:** `students`, `departments`, `staff`, `admins`
+  - **Catalog:** `books` (metadata) mapped 1:N to `book_copies` (physical items)
+- **Visual:** *(Include your ER Diagram screenshot here)*
 
-**Core Entities Breakdown:**
-1. **User Module:**
-   - `departments` (PK: id, name, code)
-   - `students` (PK: id, FK: dept_id, register_number, semester, status)
-   - `staff` / `admins` (Authentication, Role-based constraints, hashed passwords)
-2. **Catalog Module:**
-   - `books` (PK: id, UNIQUE: isbn, title, author, total_copies, stock)
-   - `book_copies` (PK: id, FK: book_id, UNIQUE: accession_number, status)
-
-#### Slide 10: Transaction Ledgers & Data Integrity
-**Transactional Processing:**
-1. **Circulation System:**
-   - `circulation` (Active loans tracking, FK: student_id, copy_id, issue_date, due_date)
-2. **Decoupled Historical Ledgers:**
-   - `transaction_logs` (Historical events, stores data snapshots to survive parent deletions)
-   - `fines` (Penalty tracking, receipt generation, FK: transaction_id, status)
-3. **System Auditing:**
-   - `audit_logs` (Immutable system activity tracker, actor_id, action_type, timestamp)
-
-**Key Database Constraints:**
-- **Data Validation:** Strict `CHECK` constraints (e.g., status IN ('Available', 'Issued', 'Lost')).
-- **Data Integrity:** Broad use of `UNIQUE` indices to prevent duplicate registers and ISBNs.
-- **Soft Deletion Pattern:** Utilizing soft deletion (`status = 'Deleted'`) over permanent physical drops to protect historical circulation data.
+#### Slide 10: Transactions & Data Integrity
+- **Decoupled Ledgers:** Active `circulation` separated from historical `transaction_logs`.
+- **Data Preservation:** Logs use a "Snapshot Pattern" (storing names/titles) to survive parent record deletions.
+- **Strict Constraints:** 
+  - `UNIQUE` indices prevent duplicate registers & ISBNs.
+  - `CHECK` constraints enforce valid states (e.g., 'Issued', 'Available').
+- **Safe Operations:** Extensive use of "Soft Deletions" instead of physical drops.
 
 #### Slides 11-12: UI Screenshots
 - Login Page with remember me
