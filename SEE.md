@@ -120,13 +120,23 @@ Date: 09/02/2026
 | Audit | System activity logging |
 | Settings | System configuration, policies |
 
-#### Slide 9: Database Architecture & ER Model
-- **Embedded Engine:** SQLite3 with Write-Ahead Logging (WAL) for concurrency.
-- **Entity Overview:** 11 heavily relational core tables connected via UUID foreign keys.
-- **Key Modules:**
-  - **User & Access:** `students`, `departments`, `staff`, `admins`
-  - **Catalog:** `books` (metadata) mapped 1:N to `book_copies` (physical items)
-- **Visual:** *(Include your ER Diagram screenshot here)*
+#### Slide 9: Database Architecture & Core Workflow
+*(Layout Tip: Left side for text, Right side for the diagram below)*
+
+**Left Column (Key Points):**
+- **Engine:** SQLite3 with WAL for high concurrency.
+- **Structure:** 11 relational tables mapped via UUIDs.
+- **Workflow Focus:** Students borrow physical Copies tied to Book metadata.
+- *(Presenter Note: Mention the full 11-table schema is in the project report).*
+
+**Right Column (Simplified ER Visual):**
+```mermaid
+erDiagram
+    STUDENTS ||--o{ CIRCULATION : "borrows"
+    BOOKS ||--|{ BOOK_COPIES : "contains 1:N"
+    BOOK_COPIES ||--o{ CIRCULATION : "loaned as"
+    CIRCULATION ||--o| FINES : "generates penalty"
+```
 
 #### Slide 10: Transactions & Data Integrity
 - **Decoupled Ledgers:** Active `circulation` separated from historical `transaction_logs`.
