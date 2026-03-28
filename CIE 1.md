@@ -59,5 +59,53 @@ The company has established a strong operational footprint by consistently maint
 
 ---
 
-### Presentation Preparation
-*(Note: As per the assessment parameters, a 30-mark presentation based on the above organizational report should be prepared for evaluation.)*
+## Presentation Slides Outline (30 Marks)
+
+Below is a structured slide outline to help you prepare for the evaluated presentation.
+
+### Slide 1: Title Slide
+- **Presentation Topic:** Continuous Internal Evaluation (CIE) - I
+- **Focus:** Organization Profile & Work Structure
+- **Presented By:** [Your Name]
+- **Registration No:** [Your Registration Number]
+- **Organization:** temp_company
+
+### Slide 2: Overview of the Organization
+- **Who We Are:** A forward-thinking technology firm bridging the gap between business needs and digital solutions.
+- **Core Focus:** Modern web development and software engineering.
+- **Primary Tech Stack:** MERN (MongoDB, Express.js, React, Node.js).
+- **Culture:** Strong emphasis on continuous learning, mentorship, and professional career growth.
+
+### Slide 3: Vision and Mission
+- **Vision:** To build scalable, forward-looking software solutions that empower enterprise business growth.
+- **Mission - Innovation:** Deliver responsive and robust digital tools for real-world efficiency.
+- **Mission - Culture:** Foster open knowledge sharing and disciplined teamwork.
+- **Mission - Mentorship:** Train the next generation of engineers through collaborative, hands-on active development.
+
+### Slide 4: Organization Structure
+- Flattened organizational hierarchy to maximize communication.
+- **Engineering Managers:** Project planning, resource allocation.
+- **Senior Engineers/Tech Leads:** Mentorship, code reviews, architecture design.
+- **Developers (Frontend/Backend):** Domain-centric programming and feature rollouts.
+- **QA Engineers:** Ensuring stability, reliability, and bug tracking.
+- **Interns/Junior/Trainees:** Building functional tools under active supervision.
+
+### Slide 5: Roles & Responsibilities
+- **Manager:** Removes daily operational blocks and sets timelines.
+- **Tech Lead:** Conducts whiteboard sessions, solves critical architectural problems.
+- **Mentors:** Guiding juniors technically, evaluating daily/weekly task goals.
+- **Developers & QA:** Write efficient, bug-free implementations; execute pre-deployment tests.
+- **Interns:** Evolve from trainees learning theories to executing reliable project features.
+
+### Slide 6: Products & Market Performance
+- **Core Services:** 
+  1. Full Stack Web Development (SPAs)
+  2. API Design & System Integration
+  3. UI/UX Design & Implementation
+  4. Web Architectural Consulting
+- **Market Stance:** Competitively positioned through the adoption of modern, fast JavaScript ecosystems (React, Vite, Node).
+- **Reputation:** Proven track record of reducing operational complexities, gaining steady client trust.
+
+### Slide 7: Conclusion & Q&A
+- **Summary:** temp_company provides an ideal, structured environment for bridging theoretical collegiate knowledge with real-world enterprise product delivery.
+- **Questions:** Thank the audience and open the floor for any Q&A.
