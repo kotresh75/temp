@@ -1,258 +1,63 @@
-# Continuous Internal Evaluation - CIE - I conducted at the end of 4th week
+# Continuous Internal Evaluation - CIE - I
+### Conducted at the end of 4th week
 
-| Sl No | Assessment of parameter | Marks |
-|:-----:|-------------------------|:-----:|
-| 1 | Writing the Capstone project scope document | 20 |
-| 2 | **Capstone project Planning**: | 40 |
-|   | • Work Breakdown Structure (WBS) - 10 marks | |
-|   | • Time-line Schedule - 10 marks | |
-|   | • Cost Breakdown Structure (CBS) - 10 marks | |
-|   | • Risk Analysis - 10 marks | |
-| 3 | Identification of Methodology (Including Literature survey) | 20 |
-|   | **Total** | **80** |
+**Submitted to:** Training Supervisor & Cohort Owner  
+**Submitted by:** [Your Name]  
+**Registration No:** [Your Registration Number]  
+**Date:** 28/03/2026  
 
 ---
 
-## 1. Capstone Project Scope Document (20 Marks)
+## 1. Overview of the Organization
 
-### 1.1 Project Title
-**GPTK Library Management System (LMS)**
+**temp_company** is a forward-thinking technology firm specializing in modern web development and software solutions. Established with the vision of bridging the gap between complex business requirements and cutting-edge digital technology, the company has steadily grown into a hub of innovation. 
 
-### 1.2 Problem Statement
-The current manual ledger-based system for managing library resources at GPTK is inefficient and prone to human error:
-- **Inefficiency**: Checking books in and out manually is time-consuming
-- **Lack of Visibility**: Difficult to track real-time status of books (issued, lost, damaged) or calculate total inventory value
-- **Data Security**: Paper records are susceptible to loss or damage; student data privacy is hard to maintain
-- **Reporting**: Generating reports on usage trends, fines collected, or inventory status is a laborious manual process
+With a strong foundation in modern tech stacks—particularly the MERN (MongoDB, Express.js, React, Node.js) stack—the organization consistently delivers high-performance web applications, dynamic single-page applications (SPAs), and internal operational tools. The company places a strong emphasis on continuous learning, structured mentorship, and professional growth, utilizing industry-standard practices like code reviews, iterative development, and version control.
 
-### 1.3 Objectives
-1. **Automate Circulation**: Streamline issuing, returning, and renewing of books using barcode scanning
-2. **Centralize Management**: Maintain a single, accurate database for all books, students, and staff
-3. **Enhance Operations**: Reduce administrative burden through automated fine calculations and due date tracking
-4. **Ensure Availability**: Provide a robust, offline-first system that functions without continuous internet access
-5. **Secure Data**: Implement Role-Based Access Control (RBAC) to protect sensitive information
-6. **Provide Insights**: Generate real-time reports on inventory, student activity, and financial transactions
+## 2. Vision and Mission of the Organization
 
-### 1.4 Scope
+### Vision
+To serve as a bridge between complex business requirements and cutting-edge digital technology by developing forward-looking software solutions that empower enterprise growth and innovation.
 
-#### In-Scope
-- **Core Modules**: Authentication, Dashboard, Catalog Management, Student Management, Circulation (Issue/Return/Renew)
-- **Financials**: Fine calculation (overdue/damage), payment recording, and receipt generation
-- **Reporting**: Daily/Monthly transaction reports, inventory status, and audit logs
-- **Hardware Integration**: Support for Barcode Scanners and Ticket/A4 Printers
-- **Architecture**: Desktop-based Application (Electron) with Local Database (SQLite) and optional Cloud Sync
+### Mission
+- To build scalable, responsive, and robust digital solutions that empower businesses to operate more efficiently.
+- To foster a culture of open knowledge sharing, disciplined teamwork, and technical excellence.
+- To mentor and train the next generation of full-stack software engineers by integrating them into active, collaborative engineering teams.
 
-#### Out-of-Scope
-- Mobile application for students
-- Online payment gateway integration
-- Inter-library loan system
-- Public Access Catalog (OPAC) for web access
+## 3. Organization Structure
 
-### 1.5 Proposed Solution
-A **Desktop-based Library Management System** tailored for GPTK:
-- **Local-First Design**: Standalone executable (Electron) storing data locally (SQLite)
-- **Modern Interface**: User-friendly, responsive React.js interface
-- **Automation**: One-click barcode scanning for rapid check-outs and check-ins
-- **Backup Strategy**: Automated local backups with optional encrypted cloud storage sync
+The organizational hierarchy at **temp_company** is flattened to maximize communication and minimize bottlenecks, ensuring everyone has a voice in the development process. The engineering floor is specifically designed for cross-team collaboration:
 
-### 1.6 Technology Stack
-| Layer | Technology |
-|-------|------------|
-| Frontend | React.js, CSS Variables |
-| Backend/Runtime | Electron.js, Node.js, Express.js |
-| Database | SQLite3 (Embedded, Local) |
-| Cloud Backup | MongoDB Atlas (Optional) |
-| Hardware Interface | WebHID/Serial API for scanners |
+- **Engineering Managers:** Oversee overall project architectures, resource allocation, and timeline management.
+- **Senior Software Engineers & Tech Leads:** Act as direct mentors and technical guides, leading architecture sessions, running pair programming initiatives, and conducting code reviews.
+- **Frontend / Backend Developers:** Focus on specific domains, building complex UI components and efficient API controllers.
+- **Quality Assurance (QA) / Testing Engineers:** Inspect network requests, ensure system reliability, and write rigorous tests before deployments.
+- **Interns / Junior Developers:** Embedded within active teams to gain hands-on experience and build functional internal tools under close supervision.
 
-### 1.7 Feasibility Study
+## 4. Roles and Responsibilities of Personnel in the Organization
 
-| Category | Factor | Assessment | Status |
-|----------|--------|------------|--------|
-| **Technical** | Hardware Readiness | Compatible with existing Windows PCs and standard barcode scanners | **High** |
-| | Technology Stack | Electron + SQLite provides proven, robust platform for offline-first desktop apps | **High** |
-| | Scalability | SQLite can handle 50,000+ records, sufficient for college needs | **High** |
-| **Operational** | Ease of Use | Intuitive UI designed for non-technical staff | **High** |
-| | Training Needs | Low; requires only 1-day workshop for library staff | **High** |
-| **Economic** | Development Cost | Internal development with open-source stack keeps costs minimal | **High** |
-| | Maintenance | Low maintenance with auto-backups and simple file-based database | **High** |
-| **Legal** | Data Privacy | Local storage ensures student data is not exposed to public servers | **High** |
+To ensure the smooth execution of projects and successful learning across teams, distinct roles are defined:
+
+- **Manager:** Ensures there are no difficulties for the engineering teams. They allocate tasks efficiently and plan the weekly execution schedules.
+- **Senior Developer (Technical Lead):** Ensures the code is written correctly, helps troubleshoot critical errors, and conducts whiteboard sessions explaining the overarching architecture. 
+- **Mentors:** Work closely with interns and junior developers to help them understand core web development concepts, assign practical tasks, guide weekly coding sessions, and clarify day-to-day functional doubts.
+- **Frontend / Backend Developers:** Implement specific features based on client and system needs (e.g., constructing React component trees, setting up Node/Express controllers, modeling MongoDB database schemas).
+- **Testing Engineers:** Responsible for checking the websites for errors and UI inconsistencies before users interact with them; they execute tests to avoid deployment failures.
+- **Interns:** Work through assigned tasks iteratively—progressing from basic styling to collaborative Full Stack application building—bridging their academic knowledge with real-world project development.
+
+## 5. Products and Market Performance
+
+### Products & Services Offered
+**temp_company** provides a comprehensive suite of digital services customized to satisfy modern technological demands:
+1. **Full Stack Web Development:** End-to-end development of dynamic single-page applications (SPAs) predominantly leveraging the MERN stack.
+2. **API Design and Integration:** Creating robust RESTful APIs that facilitate smooth and secure data communication across diverse software ecosystems.
+3. **UI/UX Design and Implementation:** Crafting intuitive and fully responsive user interfaces using foundational HTML5/CSS3 alongside modern utility frameworks like Tailwind CSS.
+4. **Software Consulting and Architecture:** Advising enterprises on the optimal technological stacks and database designs (Relational vs. NoSQL) to ensure a scalable digital infrastructure.
+
+### Market Performance
+The company has established a strong operational footprint by consistently maintaining high standards in its deliverables. It holds a competitive market position by actively adopting modern JavaScript ecosystems (like React and Vite) and robust NoSQL database architectures. Its reliable output, agile methodologies, and proven track record of reducing operational complexities for clients have paved the way for steady technological growth and a solid industry reputation.
 
 ---
 
-## 2. Capstone Project Planning (40 Marks)
-
-### 2.1 Work Breakdown Structure (WBS) - 10 Marks
-
-The WBS divides the project into manageable phases and activities:
-
-| WBS ID | Phase / Activity | Description |
-|--------|------------------|-------------|
-| 1 | Project Initiation & Requirement Analysis | Study of existing system, problem definition, requirement gathering, scope finalization |
-| 2 | System Design & Architecture | Desktop application architecture design, database schema, application flow using Electron.js |
-| 3 | Backend Development | Authentication, staff management, book management, circulation, fine calculation, audit modules |
-| 4 | Database Implementation | SQLite database tables creation, schema validation, data integration |
-| 5 | Frontend Development | React-based user interfaces for Admin and Staff with barcode scanner integration |
-| 6 | Integration & Testing | Electron container integration, frontend-backend connection, barcode scanner testing |
-| 7 | Documentation | Project report, diagrams, screenshots, user guide preparation |
-| 8 | Deployment & Submission | Desktop application packaging, local deployment, demonstration, final submission |
-
-```
-GPTK LMS Project
-├── 1. Initiation & Requirements
-├── 2. Design & Architecture
-├── 3. Backend Development
-├── 4. Database Implementation
-├── 5. Frontend Development
-├── 6. Integration & Testing
-├── 7. Documentation
-└── 8. Deployment & Submission
-```
-
-### 2.2 Timeline Schedule - 10 Marks
-
-| Phase No. | Project Phase | Activities Covered | Duration (Weeks) |
-|-----------|---------------|-------------------|------------------|
-| 1 | Project Initiation & Requirement Analysis | Study of existing system, problem definition, requirement gathering | 2 |
-| 2 | System Design & Architecture | System architecture design, database schema, use case and workflow design | 2 |
-| 3 | Backend Development | Authentication, user management, book management, circulation logic, fine calculation | 4 |
-| 4 | Database Implementation | SQLite database design, table creation, validation rules, backend integration | 2 |
-| 5 | Frontend Development | UI design, dashboards, forms, barcode integration, API integration | 3 |
-| 6 | System Integration & Testing | Electron packaging, module integration, barcode testing, offline functionality testing | 2 |
-| 7 | Documentation & Reporting | Report preparation, diagrams, screenshots, test cases | 0.5 |
-| 8 | Deployment & Submission | Desktop app packaging, local deployment, demonstration, final submission | 0.5 |
-| | **Total Duration** | | **16 Weeks** |
-
-### 2.3 Cost Breakdown Structure (CBS) - 10 Marks
-
-| Cost Category | Item | Estimated Cost (₹) |
-|---------------|------|-------------------|
-| Software and Tools | Electron.js, React.js, Node.js, Express.js, SQLite, VS Code, Git | 0 (Open-source) |
-| Hardware | Development laptop/computer | 0 (Existing) |
-| Internet and Research | Internet usage for documentation and research | 500 - 1,000 |
-| Documentation | Report printing and binding | 500 - 1,000 |
-| Miscellaneous | Electricity, stationery | 500 - 1,000 |
-| **Total Estimated Cost** | | **₹1,500 - ₹3,000** |
-
-**Cost Advantage**: The project uses entirely open-source technologies (MIT License), eliminating licensing costs and making it highly economical for academic implementation.
-
-### 2.4 Risk Analysis - 10 Marks
-
-| Sl. No. | Risk Description | Impact | Probability | Mitigation Strategy |
-|---------|------------------|--------|-------------|---------------------|
-| 1 | Incomplete or unclear requirements | High | Medium | Conduct regular discussions with guide and review requirements before development |
-| 2 | Delay in backend development | Medium | Medium | Follow phased development and adhere to planned schedule |
-| 3 | Integration issues between frontend and backend | Medium | Medium | Perform early integration and continuous testing |
-| 4 | Database design errors | High | Low | Validate schema design and perform testing with sample data |
-| 5 | Security issues (authentication/authorization) | High | Low | Implement JWT-based authentication and role-based access control |
-| 6 | Data loss or corruption | High | Low | Perform regular backups and data validation using SQLite WAL mode |
-| 7 | Testing limitations due to time constraints | Medium | Medium | Prioritize core functionalities during testing |
-| 8 | Hardware or system failure | Low | Low | Use reliable systems and maintain backup copies of code |
-
----
-
-## 3. Identification of Methodology (20 Marks)
-
-### 3.1 Development Methodology: Modular Development Approach
-
-The Library Management System was developed using a **Modular Development Methodology** specifically designed for desktop application development. This approach divides the system into independent, self-contained modules that can be developed, tested, and maintained separately.
-
-**Key Characteristics of Modular Approach:**
-- **Independent Modules**: Each module (Authentication, Circulation, Catalog, Reports) is developed as a standalone unit
-- **Loose Coupling**: Modules communicate through well-defined APIs and IPC channels
-- **High Cohesion**: Related functionalities are grouped within the same module
-- **Parallel Development**: Multiple modules can be developed simultaneously
-- **Easy Maintenance**: Changes in one module do not affect others
-
-### 3.2 Why Modular Development?
-
-| Factor | Justification |
-|--------|---------------|
-| **Complexity Management** | Breaking the system into modules makes development manageable |
-| **Reusability** | Modules can be reused or replaced without affecting the entire system |
-| **Testing Efficiency** | Each module can be unit tested independently |
-| **Team Collaboration** | Different team members can work on different modules simultaneously |
-| **Scalability** | New features can be added as new modules without modifying existing code |
-| **Maintainability** | Bug fixes and updates are isolated to specific modules |
-
-### 3.3 Literature Survey
-
-#### Existing Library Management Systems Reviewed:
-
-| System | Type | Limitations |
-|--------|------|-------------|
-| Koha | Web-based, Open-source | Requires server setup, internet dependency |
-| OpenBiblio | Web-based | Limited offline functionality |
-| SOUL 2.0 | Desktop-based | Proprietary, high licensing cost |
-| Manual Ledger System | Traditional | Error-prone, time-consuming, no reporting |
-
-#### Key Findings from Literature:
-1. **Automation Benefits**: Studies show 60-70% reduction in administrative time with automated LMS
-2. **Barcode Integration**: Significantly reduces book identification time from minutes to seconds
-3. **Offline Functionality**: Critical for institutions with unreliable internet connectivity
-4. **Role-Based Access**: Essential for security and accountability in multi-user systems
-
-### 3.4 Technology Stack Selection Rationale
-
-| Technology | Reason for Selection |
-|------------|---------------------|
-| **Electron.js** | Cross-platform desktop development with web technologies, offline capability |
-| **React.js** | Component-based UI, responsive design, large ecosystem |
-| **Node.js/Express** | JavaScript unification, efficient API development |
-| **SQLite** | Serverless, embedded database ideal for offline desktop applications |
-
-### 3.5 System Design Approach
-
-The system follows a **three-tier desktop architecture**:
-
-```
-┌─────────────────────────────────────────┐
-│          Electron Container             │
-├─────────────────────────────────────────┤
-│  Presentation Layer (React.js UI)       │
-├─────────────────────────────────────────┤
-│  Application Layer (Node.js/Express)    │
-├─────────────────────────────────────────┤
-│  Data Layer (SQLite Database)           │
-└─────────────────────────────────────────┘
-```
-
-### 3.6 Key Methodological Decisions
-
-1. **Desktop-First Approach**: Chosen over web-based solution for:
-   - Complete offline functionality
-   - Enhanced data privacy (local storage)
-   - No recurring hosting costs
-   - Better hardware integration (barcode scanners, printers)
-
-2. **Local-First Data Architecture**:
-   - SQLite for immediate data access without network latency
-   - Optional cloud sync for backup purposes only
-
-3. **Modular Architecture**:
-   - Independent modules for authentication, circulation, catalog, reports
-   - Each module has its own controller, routes, and UI components
-   - Easier testing, debugging, and maintenance
-
-### 3.7 Module Breakdown
-
-| Module | Responsibility | Key Components |
-|--------|----------------|----------------|
-| **Authentication** | Login, JWT tokens, password reset | `authController.js`, `LoginPage.js` |
-| **Circulation** | Issue, Return, Renew operations | `circulationHandler.js`, `CirculationPage.js` |
-| **Catalog** | Book and copy management | `bookController.js`, `CatalogPage.js` |
-| **Students** | Student database management | `studentController.js`, `StudentManager.js` |
-| **Fines** | Fine calculation and collection | `fineController.js`, `FineManagementPage.js` |
-| **Reports** | Analytics and export | `reportsController.js`, `ReportsPage.js` |
-| **Audit** | System activity logging | `auditController.js`, `AuditPage.js` |
-| **Dashboard** | KPIs and real-time stats | `dashboardController.js`, `DashboardHome.js` |
-| **Settings** | System configuration | `policyController.js`, `SettingsPage.js` |
-
-### 3.8 Summary
-
-The **Modular Development Methodology** was chosen as it perfectly aligns with the project's requirements for:
-- Clear separation of concerns between different library functions
-- Independent development and testing of each module
-- Easy future enhancements by adding new modules
-- Structured codebase that is easy to understand and maintain
-
-This methodology, combined with structured planning (WBS, Timeline, CBS, Risk Analysis) and comprehensive literature review, ensures the delivery of a functional, secure, and user-friendly Library Management System within the academic timeline.
+### Presentation Preparation
+*(Note: As per the assessment parameters, a 30-mark presentation based on the above organizational report should be prepared for evaluation.)*
