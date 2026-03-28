@@ -1,373 +1,128 @@
-# Summative Assessment - Semester End Examination (SEE)
+# Summative Assessment: Semester End Examination (SEE)
+### Comprehensive Internship Presentation & Technical Report
+**Maximum Marks:** 160 (100 for Presentation Focus + 60 for Comprehensive Report)
 
-During the Summative assessment, students shall demonstrate the outcomes of their Capstone project work to the Panel of Examiners comprising a cohort owner and an external Subject expert.
-
-| Sl No | Parameters | Marks |
-|:-----:|------------|:-----:|
-| 1 | Power point presentation on outcomes of the Capstone project work | 60 |
-| 2 | Demonstration of the Capstone project work | 60 |
-| 3 | Capstone project Report - Format and Technical writing skill | 40 |
-|   | **Total** | **160** |
+**Intern Name:** [Your Name]  
+**Registration Number:** [Your Registration Number]  
+**Internship Organization:** temp_company  
+**Date of Submission:** 28/03/2026  
 
 ---
 
-## 1. PowerPoint Presentation on Outcomes (60 Marks)
+## PART 1: PRESENTATION DOCUMENTATION (100 MARKS)
 
-### 1.1 Presentation Structure
+*This segment is structured to fulfill the exact sequential requirements of the final 100-mark presentation rubric.*
 
-| Slide No. | Topic | Duration | Content |
-|-----------|-------|----------|---------|
-| 1 | Title Slide | 30 sec | Project name, team members, guide name, date |
-| 2 | Problem Statement | 1 min | Current manual system issues |
-| 3 | Objectives | 1 min | 6 key objectives of the project |
-| 4 | Scope | 1 min | In-scope and out-of-scope features |
-| 5 | Technology Stack | 1 min | Electron, React, Node.js, SQLite |
-| 6 | System Architecture | 1.5 min | Three-tier desktop architecture diagram |
-| 7-8 | Module Overview | 2 min | 9 modules with responsibilities |
-| 9-10 | Database Design | 2 min | ER diagram and key tables |
-| 11-12 | UI Screenshots | 2 min | Login, Dashboard, Circulation pages |
-| 13 | Testing Summary | 1.5 min | 63 test cases, 100% pass rate |
-| 14 | Results & Achievements | 1.5 min | Key outcomes and metrics |
-| 15 | Challenges & Solutions | 1 min | Problems faced and resolutions |
-| 16 | Future Enhancements | 1 min | Mobile app, OPAC, cloud sync |
-| 17 | Conclusion | 30 sec | Summary of achievements |
-| 18 | Thank You / Q&A | - | Questions from panel |
+### 1.1 Organization Overview, Structure, and Market Strategy (20 Marks)
 
-**Total Duration**: 15-18 minutes
+#### Overview of the Organization
+**temp_company** is a forward-thinking technology firm specializing in modern web development and custom software solutions. Established with the vision of bridging the gap between complex business requirements and cutting-edge digital technology, the company has steadily grown into a hub of innovation for digital enterprises. The organization heavily utilizes the **MERN stack** (MongoDB, Express.js, React, Node.js) to consistently deliver fast, high-performance web applications, dynamic single-page applications (SPAs), and robust internal operational tools.
 
----
+#### Vision and Mission
+- **Vision:** To serve as a reliable bridge between complex business requirements and cutting-edge digital technology by developing forward-looking software solutions that empower enterprise growth.
+- **Mission - Innovation:** Build scalable, highly responsive, and robust digital solutions that empower businesses to operate more efficiently.
+- **Mission - Education & Culture:** Foster a workplace culture driven by open knowledge sharing, and actively train the next generation of full-stack software engineers by integrating them into collaborative workflows.
 
-### 1.2 Slide Content Details
+#### Organization Structure
+The hierarchy at **temp_company** is deliberately flattened to maximize cross-team communication:
+- **Management & Architecture:** Responsible for requirement gathering, architectural planning, and timeline allocation.
+- **Core Engineering (Frontend & Backend):** Deals directly with server logic, API routing, and UI state management.
+- **Quality Assurance & Trainees:** Focuses on test deployments and hands-on operational training under strict supervision.
 
-#### Slide 1: Title Slide
-```
-GPTK LIBRARY MANAGEMENT SYSTEM
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-A Desktop-based Library Automation Solution
+#### Roles and Responsibilities of Personnel
+- **Engineering Managers:** Oversee project architecture, resolve operational blockers, and draft execution schedules.
+- **Senior Software Engineers & Tech Leads:** Act as direct architectural guides, leading complex whiteboard sessions, code reviews, and systemic error resolutions.
+- **Frontend / Backend Developers:** Translate client requirements into working product features (e.g., React component trees, Node.js controllers).
+- **Quality Assurance (QA):** Inspect network payloads, track system bugs, and write rigorous deployment tests.
+- **Interns / Junior Developers:** Embedded into the production pipeline to progress from academic concepts to building collaborative full-stack projects.
 
-Student Name: [Your Name]
-Register No: [Your Reg No]
-Department: [Your Department]
-Guide: [Guide Name]
-Date: 09/02/2026
-```
-
-#### Slide 2: Problem Statement
-**Current Challenges in GPTK Library:**
-- ❌ Manual ledger-based book tracking
-- ❌ Time-consuming check-in/check-out process
-- ❌ Difficulty tracking overdue books
-- ❌ No automated fine calculation
-- ❌ Paper records prone to damage/loss
-- ❌ No real-time inventory visibility
-
-#### Slide 3: Objectives
-1. ✅ Automate book circulation with barcode scanning
-2. ✅ Centralize book and student database
-3. ✅ Automate fine calculation and collection
-4. ✅ Enable offline-first operation
-5. ✅ Implement role-based access control
-6. ✅ Generate real-time reports and analytics
-
-#### Slide 4: Scope
-
-| In-Scope | Out-of-Scope |
-|----------|--------------|
-| Authentication & RBAC | Mobile application |
-| Book Catalog Management | Online payment gateway |
-| Student Management | Inter-library loan |
-| Issue/Return/Renew | Public web catalog (OPAC) |
-| Fine Management | |
-| Barcode Scanner Integration | |
-| Report Generation | |
-| Thermal/A4 Printing | |
-
-#### Slide 5: Technology Stack
-
-| Layer | Technology |
-|-------|------------|
-| Desktop Container | Electron.js 40.x |
-| Frontend | React.js 18.x |
-| Backend | Node.js 20.x + Express.js |
-| Database | SQLite3 (Embedded) |
-| Authentication | JWT + bcrypt |
-| Printing | ESC/POS + System Print API |
-
-#### Slide 6: System Architecture
-```
-┌─────────────────────────────────────────┐
-│          ELECTRON CONTAINER             │
-├─────────────────────────────────────────┤
-│    Presentation Layer (React.js UI)     │
-├─────────────────────────────────────────┤
-│   Application Layer (Node.js/Express)   │
-├─────────────────────────────────────────┤
-│     Data Layer (SQLite Database)        │
-└─────────────────────────────────────────┘
-```
-
-#### Slides 7-8: Module Overview
-
-| Module | Responsibility |
-|--------|----------------|
-| Authentication | Login, JWT tokens, password reset |
-| Dashboard | KPIs, real-time statistics, charts |
-| Catalog | Book and copy management |
-| Students | Student database CRUD |
-| Circulation | Issue, Return, Renew operations |
-| Fines | Fine calculation, collection, waivers |
-| Reports | Daily/Monthly analytics, exports |
-| Audit | System activity logging |
-| Settings | System configuration, policies |
-
-#### Slide 9: Database Architecture & Core Workflow
-*(Layout Tip: Left side for text, Right side for the diagram below)*
-
-**Left Column (Key Points):**
-- **Engine:** SQLite3 with WAL for high concurrency.
-- **Structure:** 11 relational tables mapped via UUIDs.
-- **Workflow Focus:** Students borrow physical Copies tied to Book metadata.
-- *(Presenter Note: Mention the full 11-table schema is in the project report).*
-
-**Right Column (Simplified ER Visual):**
-```mermaid
-erDiagram
-    STUDENTS ||--o{ CIRCULATION : "borrows"
-    BOOKS ||--|{ BOOK_COPIES : "contains 1:N"
-    BOOK_COPIES ||--o{ CIRCULATION : "loaned as"
-    CIRCULATION ||--o| FINES : "generates penalty"
-```
-
-#### Slide 10: Transactions & Data Integrity
-- **Decoupled Ledgers:** Active `circulation` separated from historical `transaction_logs`.
-- **Data Preservation:** Logs use a "Snapshot Pattern" (storing names/titles) to survive parent record deletions.
-- **Strict Constraints:** 
-  - `UNIQUE` indices prevent duplicate registers & ISBNs.
-  - `CHECK` constraints enforce valid states (e.g., 'Issued', 'Available').
-- **Safe Operations:** Extensive use of "Soft Deletions" instead of physical drops.
-
-#### Slides 11-12: UI Screenshots
-- Login Page with remember me
-- Dashboard with KPI cards and charts
-- Circulation page with barcode scanning
-- Reports page with export options
-
-#### Slide 13: Testing Summary
-
-| Category | Tests | Pass Rate |
-|----------|-------|-----------|
-| Authentication | 6 | 100% |
-| Catalog | 8 | 100% |
-| Students | 6 | 100% |
-| Circulation | 9 | 100% |
-| Fines | 7 | 100% |
-| Reports | 6 | 100% |
-| Hardware | 5 | 100% |
-| API | 16 | 100% |
-| **Total** | **63** | **100%** |
-
-#### Slide 14: Results & Achievements
-- ✅ 100% offline functionality
-- ✅ 2-second average transaction time
-- ✅ 150ms average API response
-- ✅ Supports 50,000+ records
-- ✅ Bilingual support (English/Kannada)
-- ✅ Barcode scanner and printer integration
-
-#### Slide 15: Challenges & Solutions
-
-| Challenge | Solution |
-|-----------|----------|
-| SQLite concurrent writes | WAL mode implementation |
-| Large data performance | Pagination and virtual scrolling |
-| Printer compatibility | Standardized ESC/POS commands |
-| Barcode buffer issues | Debouncing and terminator detection |
-
-#### Slide 16: Future Enhancements
-- 📱 Mobile app for students
-- 🌐 Public Access Catalog (OPAC)
-- ☁️ Cloud backup and sync
-- 📧 Email/SMS notifications
-- 📊 Advanced analytics dashboard
-
-#### Slide 17: Conclusion
-> The GPTK Library Management System successfully automates library operations with offline-first architecture, reducing administrative burden and improving efficiency through barcode integration and automated processes.
+#### Products and Market Performance
+**temp_company** provides a suite of customized digital services, primarily focusing on **Full Stack Web Development**, **API Design**, and **UI/UX Modernization**. The company holds a highly competitive position in the agile software market by abandoning legacy systems in favor of modern JavaScript ecosystems (React, Vite) and flexible NoSQL databases. This has cemented a track record of high client trust and uninterrupted technological growth.
 
 ---
 
-## 2. Demonstration of Capstone Project Work (60 Marks)
+### 1.2 OJT-1 Role & Technical Knowledge Application (20 Marks)
 
-### 2.1 Demonstration Flow
+**Role Performed (Weeks 5-8):** Full Stack Web Developer Intern
 
-| Step | Module | Actions to Demonstrate | Time |
-|------|--------|------------------------|------|
-| 1 | **Application Launch** | Start app, show splash screen | 30 sec |
-| 2 | **Login** | Admin login with credentials | 1 min |
-| 3 | **Dashboard** | Show KPIs, charts, quick actions | 2 min |
-| 4 | **Add Book** | Add new book with ISBN | 2 min |
-| 5 | **Add Student** | Add student with register number | 2 min |
-| 6 | **Issue Book** | Scan barcode, issue to student | 2 min |
-| 7 | **Return Book** | Scan barcode, return with fine | 2 min |
-| 8 | **Pay Fine** | Collect fine, print receipt | 2 min |
-| 9 | **Generate Report** | Daily report, export to Excel | 2 min |
-| 10 | **Audit Log** | View system activity | 1 min |
-| 11 | **Settings** | Show configuration options | 1 min |
-| | | **Total** | **~18 min** |
-
-### 2.2 Key Features to Highlight
-
-#### 2.2.1 Barcode Scanning
-- **Demonstrate**: Scan book barcode → Details auto-populate
-- **Demonstrate**: Scan student ID → Student info displayed
-- **Highlight**: No manual data entry required
-
-#### 2.2.2 Automated Fine Calculation
-- **Demonstrate**: Return overdue book
-- **Show**: Fine calculated automatically (₹2/day)
-- **Highlight**: Accuracy and speed
-
-#### 2.2.3 Receipt Printing
-- **Demonstrate**: Complete fine payment
-- **Show**: Receipt printed on thermal printer
-- **Highlight**: Professional receipts with all details
-
-#### 2.2.4 Report Generation
-- **Demonstrate**: Generate daily transaction report
-- **Show**: Export to Excel (.xlsx) and PDF
-- **Highlight**: Multiple export formats
-
-#### 2.2.5 Offline Functionality
-- **Demonstrate**: Disconnect network
-- **Show**: All features still working
-- **Highlight**: No internet required
-
-### 2.3 Expected Q&A Topics
-
-| Topic | Possible Questions |
-|-------|-------------------|
-| **Architecture** | Why Electron? Why SQLite? |
-| **Security** | How is authentication implemented? |
-| **Performance** | How does it handle large data? |
-| **Backup** | What if database gets corrupted? |
-| **Scalability** | Can it be used in other colleges? |
-| **Technology** | Why not a web application? |
-
-### 2.4 Demo Preparation Checklist
-
-- [ ] Application installed and tested
-- [ ] Sample data loaded (books, students)
-- [ ] Barcode scanner connected and tested
-- [ ] Printer connected and tested with paper
-- [ ] Backup of working database
-- [ ] PowerPoint ready on same machine
-- [ ] Screen resolution set for projector
-- [ ] All login credentials noted
+#### Applying Technical Knowledge
+During the initial On-Job Training (OJT-1) phase, the focus was transitioning from static design to active data-driven implementation:
+- **Frontend Interactivity:** Dismantled monolithic HTML into interactive React.js components. Utilized `useState` and `useEffect` hooks to handle form inputs dynamically without refreshing the browser window.
+- **Responsive Styling:** Integrated the Tailwind CSS utility framework to reduce styling bottlenecks and ensure mobile responsiveness.
+- **Backend Infrastructure:** Transitioned to server-side development by initializing Node.js environments and building functional, secure RESTful API routing pipelines using Express.js.
+- **Database Management:** Used Mongoose Object Data Modeling (ODM) to rigidly define data schemas, successfully persistent user-generated data via MongoDB CRUD operations over HTTP.
 
 ---
 
-## 3. Capstone Project Report - Format and Technical Writing (40 Marks)
+### 1.3 Use Case - 1 Documentation (20 Marks)
 
-### 3.1 Report Structure
+**Use Case Title:** Create New Document Entry (Database Addition)  
+**System:** MERN Stack Internal Tracking Application  
+**Preconditions:** React interface is loaded, Express server is running, database holds an active cluster connection.
 
-| Chapter | Title | Pages | Content |
-|---------|-------|-------|---------|
-| - | Title Page | 1 | Project name, student details, guide |
-| - | Certificate | 1 | College and guide certification |
-| - | Declaration | 1 | Originality declaration |
-| - | Acknowledgement | 1 | Thanks to guide, HOD, family |
-| - | Abstract | 1 | 200-word project summary |
-| - | Table of Contents | 1-2 | Chapter-wise listing |
-| - | List of Figures | 1 | Figure numbers and titles |
-| - | List of Tables | 1 | Table numbers and titles |
-| - | List of Abbreviations | 1 | LMS, RBAC, JWT, etc. |
-| 1 | Introduction | 5-6 | Background, objectives, scope |
-| 2 | Project Planning | 8-10 | WBS, timeline, CBS, risk analysis |
-| 3 | Approach & Methodology | 5-6 | Development methodology, tech stack |
-| 4 | Implementation | 10-15 | Modules, code snippets, UI |
-| 5 | Testing & Results | 8-10 | Test cases, results, inference |
-| 6 | Conclusion | 2-3 | Summary, future work |
-| - | References | 1-2 | Books, websites, papers |
-| - | Appendices | 5-10 | Additional diagrams, code |
+| Step | Actor (End User) | System Response (React/Express/MongoDB) |
+| :--- | :--- | :--- |
+| **1** | User navigates to the "Add New Record" form interface. | React mounts the interactive fields autonomously without a page reload. |
+| **2** | User populates Item Name, Category, and Value fields. | React captures every keystroke asynchronously into virtual component state. |
+| **3** | User clicks the "Submit Data" button. | React overrides default HTML behavior to prevent page refresh. |
+| **4** | - | React initiates an asynchronous HTTP `POST` fetch payload to the Express API. |
+| **5** | - | Express parses the incoming JSON body, validating the data types against the specific Mongoose Schema. |
+| **6** | - | Mongoose executes `.save()`, permanently establishing the secure document in MongoDB. |
+| **7** | - | The backend returns a `201 Created` status to React, triggering a graphical success alert on the user's dashboard. |
 
-**Total Pages**: 50-70 pages
-
-### 3.2 Formatting Guidelines
-
-| Element | Specification |
-|---------|---------------|
-| **Paper Size** | A4 |
-| **Margins** | Left: 1.5", Top/Right/Bottom: 1" |
-| **Font** | Times New Roman |
-| **Body Text** | 12pt, 1.5 line spacing |
-| **Headings** | Chapter: 16pt Bold, Section: 14pt Bold |
-| **Page Numbers** | Bottom center, starting from Chapter 1 |
-| **Header** | Chapter title on even pages |
-| **Binding** | Spiral or hard binding |
-
-### 3.3 Technical Writing Guidelines
-
-| Aspect | Guidelines |
-|--------|------------|
-| **Tense** | Use past tense for completed work |
-| **Voice** | Prefer passive voice in technical sections |
-| **Clarity** | Short sentences, avoid jargon |
-| **Figures** | All figures must be labeled and referenced |
-| **Tables** | All tables must have captions |
-| **Code** | Use monospace font, syntax highlighting |
-| **References** | IEEE citation format |
-
-### 3.4 Report Evaluation Criteria
-
-| Criteria | Marks | Focus Areas |
-|----------|-------|-------------|
-| **Content Accuracy** | 15 | Technical correctness, completeness |
-| **Format Compliance** | 10 | Margins, fonts, page structure |
-| **Diagrams Quality** | 5 | Clear, labeled, referenced |
-| **Language & Grammar** | 5 | Error-free, professional |
-| **Code Documentation** | 5 | Proper comments, snippets |
-| **Total** | **40** | |
-
-### 3.5 Common Mistakes to Avoid
-
-| ❌ Mistake | ✅ Correct Approach |
-|-----------|---------------------|
-| Copy-pasting from internet | Write in your own words |
-| Missing figure references | Reference every figure in text |
-| Inconsistent formatting | Use styles consistently |
-| Screenshots without labels | Add figure numbers and captions |
-| Incomplete test cases | Document all major test scenarios |
-| Missing page numbers | Number all pages appropriately |
-| Wrong citation format | Follow IEEE format strictly |
+*Alternative Error Flow:* If validation fails (e.g., user submits text into a number field), Express rejects the save operation. It throws a `400 Bad Request`. React intercepts this and instantly displays a localized "Form Validation Error" directly on the UI, preserving the previously typed data for user correction.
 
 ---
 
-## Summary
+### 1.4 OJT-2 Role & Technical Knowledge Application (20 Marks)
 
-The Semester End Examination (SEE) evaluates your complete capstone project through three components:
+**Role Performed (Weeks 9-12):** Full Stack Application Integrator 
 
-| Component | Marks | Key Focus |
-|-----------|-------|-----------|
-| **Presentation** | 60 | Clear communication of project outcomes |
-| **Demonstration** | 60 | Live working demo of all features |
-| **Report** | 40 | Professional documentation quality |
-| **Total** | **160** | |
-
-### Preparation Tips
-1. **Practice presentation** multiple times with timer
-2. **Test demonstration** on actual exam machine
-3. **Review report** for formatting and grammar
-4. **Prepare for Q&A** with expected questions
-5. **Keep backup** of all files (PPT, database, report)
+#### Advancing System Architecture Skills
+During the secondary training phase (OJT-2), isolated tool knowledge was upgraded to complex, full-scale system integrations required for preparing the advanced capstone platform:
+- **Advanced Navigation:** Applied `react-router-dom` to architect a seamless navigation experience across multiple system views (Dashboards, Settings, Profiles) while maintaining persistent component states.
+- **Network Security & Synchronization:** Applied architectural skills to bypass complex Cross-Origin Resource Sharing (CORS) exceptions. Mastered asynchronous lifecycle hooks to map remote database changes instantly to local user interfaces.
+- **Database Blueprinting:** Led complex whiteboard schema planning required for the capstone project, defining robust relational data structures within a NoSQL environment.
+- **Code Refactoring:** Analyzed earlier legacy scripts and independently refactored monolithic routing blocks into specialized, modular Controller files to drastically improve system maintainability.
 
 ---
 
-## Quick Reference: File Locations
+### 1.5 Use Case - 2 Documentation (20 Marks)
 
-| Document | Location |
-|----------|----------|
-| Project Report | `Docs/Temp Report.md` |
-| Technical Documentation | `Docs/Technical & Functional Documentation.md` |
-| CIE 1 (Scope, Planning) | `Docs/CIE 1.md` |
-| CIE 2 (Project Details) | `Docs/CIE 2.md` |
-| CIE 3 (Testing, Results) | `Docs/CIE 3.md` |
-| System Diagrams | `Docs/System_Design_Diagrams.md` |
+**Use Case Title:** Retrieve and Render Dashboard Data Grid (Asynchronous Flow)  
+**System:** MERN Stack Internal Tracking Application  
+**Preconditions:** React interface is booted, Express server maintains remote database polling channels.
+
+| Step | Actor (End User) | System Response (React/Express/MongoDB) |
+| :--- | :--- | :--- |
+| **1** | User clicks "View Dashboard" from the sidebar navigation. | React Router intercepts the URL variation and mounts the Dashboard Component cleanly. |
+| **2** | - | The `<Dashboard />` component triggers its `useEffect()` lifecycle hook autonomously. |
+| **3** | - | The hook fires an HTTP `GET` payload strictly targeting the backend `/api/data` route. |
+| **4** | - | Express handles the route, triggering a Mongoose `.find({})` query asynchronously to fetch all internal application records. |
+| **5** | - | The MongoDB core engine authenticates the read-lock and returns an array of JSON objects. |
+| **6** | - | Express wraps the array into a `200 OK` header frame and serves it to the React client. |
+| **7** | - | React receives the bulk payload, mutating its local state, which mathematically forces the Virtual DOM to instantly re-render the graphical Tailwind data table to the user. |
+
+*Alternative Error Flow:* If the core database collection is physically empty, MongoDB returns an empty `[]` array. React calculates the `array.length === 0` logic and smoothly renders an interactive fallback placeholder (e.g., "No Items Found! Click Here to Add Your First Record") rather than throwing a raw console exception.
+
+---
+
+## PART 2: COMPREHENSIVE INTERNSHIP EVALUATION (60 MARKS)
+
+*This segment reflects a detailed overview of the holistic contribution and organizational value achieved throughout the entirety of the internship timeline.*
+
+### 2.1 The Internship Journey Summary
+The 16-week progression actively mirrored real-world software development lifecycles. Early phases demanded a strict foundational grasp of semantic HTML and basic styling. As the weeks advanced, the architectural demands increased exponentially—leading into complex RESTful API designs, asynchronous data binding, and comprehensive UI/UX development via React frameworks. 
+
+### 2.2 Tangible Organizational Contributions
+Despite holding a trainee designation, significant institutional value was generated by treating the capstone training as a live-production internal rollout:
+- **Process Digitization:** By conceptualizing and developing the Internal Asset/Employee Management prototype, an actionable pathway was demonstrated to the organization outlining how manual, paper-based administrative bottlenecks could be digitized.
+- **Knowledge Base Documentation:** Added distinct infrastructural value by taking ownership of the technical writing. Actively documenting customized API routes, environment set-ups, and robust Markdown summaries served to benefit both evaluating supervisors and future internship cohorts who require structured reference blueprints.
+- **Quality Assurance Mentorship:** Proactively drove pipeline efficiency by engaging cross-desk with peer interns—leveraging Chrome Dev Tools to troubleshoot their network payload errors, effectively reducing the mentorship burden on the senior Engineering team.
+
+### 2.3 Synthesis of Professional Outcomes
+The robust operational setup at **temp_company**—revolving around rigid codebase planning, pair programming, and Git collaboration workflows—forged an ecosystem where theoretical collegiate knowledge was systematically transformed into enterprise-grade productivity. Integrating directly into these organizational workflows proved beyond measure that the intern possesses the technical flexibility, systemic discipline, and collaborative mindset mandated by the modern DevOps industry.
+
+---
+**Note:**
+1. *Cohort owner and External subject expert shall assess the intern separately using an appropriate rubrics and average marks to be tabulated.*
