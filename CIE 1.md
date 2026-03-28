@@ -8,6 +8,8 @@
 
 ---
 
+## Part A: Organization Report (50 Marks)
+
 ## 1. Overview of the Organization
 
 **temp_company** is a forward-thinking technology firm specializing in modern web development and custom software solutions. Established with the vision of bridging the gap between complex business requirements and cutting-edge digital technology, the company has steadily grown into a hub of innovation for digital enterprises.
@@ -99,7 +101,7 @@ To ensure the smooth execution of projects and successful learning across teams,
 
 ---
 
-## Presentation Slides Outline (30 Marks)
+## Part B: Presentation Slides Outline (30 Marks)
 
 Below is a structured slide outline to help you prepare for the evaluated presentation.
 
@@ -149,3 +151,6 @@ Below is a structured slide outline to help you prepare for the evaluated presen
 ### Slide 7: Conclusion & Q&A
 - **Summary:** temp_company provides an ideal, structured environment for bridging theoretical collegiate knowledge with real-world enterprise product delivery.
 - **Questions:** Thank the audience and open the floor for any Q&A.
+
+---
+**Note:** *CIE-1 shall be assessed by the Cohort owner for 80 marks using appropriate Rubrics.*

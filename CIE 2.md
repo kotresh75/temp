@@ -117,3 +117,8 @@ This technical use case strictly outlines the step-by-step systemic interaction 
 **8. Postconditions:**
 - **Success:** A new transactional asset record is permanently, securely registered within the NoSQL database. It is immediately rendered visible on the user’s dashboard list view, accurately reflecting the updated system state.
 - **Failure:** The database state remains un-mutated. The user is actively informed of why the addition failed and given an intuitive path to correct their action.
+
+---
+**Note:**
+1. *CIE-II shall be assessed by the Industrial Training Supervisor using companies' assessment Tools/Rubrics.*
+2. *Cohort owner shall assist the Industrial Training Supervisor during assessment of CIE-II.*
