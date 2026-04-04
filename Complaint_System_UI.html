@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>body { font-family: 'Roboto', sans-serif; }</style>
+</head>
+<body class="bg-[#f4f7fa] text-[#2c3e50]">
+    <div class="flex flex-col h-screen overflow-hidden">
+        <header class="h-16 bg-[#2c3e50] text-white flex items-center justify-between px-6 shadow-md z-10">
+            <div class="flex items-center gap-4">
+                <i class="fas fa-shield-alt text-2xl text-[#e74c3c]"></i>
+                <h1 class="text-xl font-bold tracking-wider">CampusResolve</h1>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="relative">
+                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-sm"></i>
+                    <input type="text" placeholder="Search Ticket ID..." class="pl-9 pr-4 py-1.5 bg-[#34495e] border border-[#2c3e50] rounded text-sm text-white focus:outline-none focus:border-[#3498db] transition w-64">
+                </div>
+                <div class="flex items-center gap-3 pl-4 border-l border-[#34495e]">
+                    <div class="text-right hidden md:block">
+                        <p class="text-sm font-semibold leading-tight">Principal / Admin</p>
+                        <p class="text-[11px] text-[#95a5a6]">Grievance Officer</p>
+                    </div>
+                    <div class="h-9 w-9 bg-[#3498db] rounded-full flex items-center justify-center font-bold">P</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex flex-1 overflow-hidden">
+            <aside class="w-60 bg-white border-r border-gray-200 shadow-sm flex flex-col hidden md:flex">
+                <nav class="p-4 space-y-1">
+                    <p class="px-3 text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 mt-4">Main Menu</p>
+                    <a href="Complaint_System_UI.html" class="flex items-center gap-3 px-3 py-2.5 bg-[#eaf2f8] text-[#2980b9] rounded-md font-medium border-l-4 border-[#3498db]"><i class="fas fa-tachometer-alt w-5 text-center"></i> Dashboard</a>
+                    <a href="Complaint_System_UI_Add.html" class="flex items-center gap-3 px-3 py-2.5 text-gray-600 hover:bg-gray-50 rounded-md font-medium transition"><i class="fas fa-plus-circle w-5 text-center"></i> Raise Grievance</a>
+                </nav>
+            </aside>
+            
+            <main class="flex-1 overflow-y-auto p-8">
+                <div class="max-w-7xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mb-8">
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-5 flex items-center gap-4 border-l-4 border-l-[#3498db]">
+                            <div class="h-12 w-12 rounded-full bg-[#eaf2f8] text-[#3498db] flex items-center justify-center text-xl"><i class="fas fa-inbox"></i></div>
+                            <div><p class="text-sm text-gray-500 font-medium">Total Tickets</p><h3 class="text-2xl font-bold">1,048</h3></div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-5 flex items-center gap-4 border-l-4 border-l-[#e74c3c]">
+                            <div class="h-12 w-12 rounded-full bg-[#fdedec] text-[#e74c3c] flex items-center justify-center text-xl"><i class="fas fa-exclamation-circle"></i></div>
+                            <div><p class="text-sm text-gray-500 font-medium">Open</p><h3 class="text-2xl font-bold">86</h3></div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-5 flex items-center gap-4 border-l-4 border-l-[#f39c12]">
+                            <div class="h-12 w-12 rounded-full bg-[#fef5e7] text-[#f39c12] flex items-center justify-center text-xl"><i class="fas fa-clock"></i></div>
+                            <div><p class="text-sm text-gray-500 font-medium">In Progress</p><h3 class="text-2xl font-bold">124</h3></div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-5 flex items-center gap-4 border-l-4 border-l-[#2ecc71]">
+                            <div class="h-12 w-12 rounded-full bg-[#eaeded] text-[#2ecc71] flex items-center justify-center text-xl"><i class="fas fa-check-double"></i></div>
+                            <div><p class="text-sm text-gray-500 font-medium">Resolved</p><h3 class="text-2xl font-bold">838</h3></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <div class="p-5 border-b border-gray-200 flex justify-between items-center bg-gray-50/50">
+                            <h2 class="text-lg font-bold">Recent Complaints</h2>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left border-collapse">
+                                <thead>
+                                    <tr class="text-xs uppercase tracking-wider text-gray-500 border-b border-gray-200 bg-gray-50">
+                                        <th class="px-6 py-3 font-semibold">ID</th>
+                                        <th class="px-6 py-3 font-semibold">Subject</th>
+                                        <th class="px-6 py-3 font-semibold">Department</th>
+                                        <th class="px-6 py-3 font-semibold">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-sm divide-y divide-gray-100">
+                                    <tr class="hover:bg-blue-50/30">
+                                        <td class="px-6 py-4 font-mono font-bold text-[#3498db]">#TK-8092</td>
+                                        <td class="px-6 py-4 font-semibold">WiFi Connectivity issue in CS Lab 3</td>
+                                        <td class="px-6 py-4 text-gray-600">IT Support</td>
+                                        <td class="px-6 py-4"><span class="px-2 py-1 bg-red-100 text-red-700 rounded text-xs font-bold">OPEN</span></td>
+                                    </tr>
+                                    <tr class="hover:bg-blue-50/30">
+                                        <td class="px-6 py-4 font-mono font-bold text-[#3498db]">#TK-8091</td>
+                                        <td class="px-6 py-4 font-semibold">Library late fees waiver requested (₹500)</td>
+                                        <td class="px-6 py-4 text-gray-600">Administration</td>
+                                        <td class="px-6 py-4"><span class="px-2 py-1 bg-orange-100 text-orange-700 rounded text-xs font-bold">IN PROGRESS</span></td>
+                                    </tr>
+                                    <tr class="hover:bg-blue-50/30">
+                                        <td class="px-6 py-4 font-mono font-bold text-[#3498db]">#TK-8089</td>
+                                        <td class="px-6 py-4 font-semibold">Broken projector screen in Room 4A</td>
+                                        <td class="px-6 py-4 text-gray-600">Infrastructure</td>
+                                        <td class="px-6 py-4"><span class="px-2 py-1 bg-green-100 text-green-700 rounded text-xs font-bold">RESOLVED</span></td>
+                                    </tr>
+                                    <tr class="hover:bg-blue-50/30">
+                                        <td class="px-6 py-4 font-mono font-bold text-[#3498db]">#TK-8085</td>
+                                        <td class="px-6 py-4 font-semibold">Mens Hostel Block B water purifier not working</td>
+                                        <td class="px-6 py-4 text-gray-600">Hostel Warden</td>
+                                        <td class="px-6 py-4"><span class="px-2 py-1 bg-red-100 text-red-700 rounded text-xs font-bold">OPEN</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

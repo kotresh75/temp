@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog CMS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900 overflow-x-hidden">
+    <!-- Top Navigation -->
+    <header class="bg-white border-b border-stone-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <a href="Simple_Blog_UI.html" class="font-serif text-3xl font-bold tracking-tight text-stone-900">
+                    Scribe<span class="text-indigo-600">.</span>
+                </a>
+                <nav class="hidden md:flex space-x-6 text-sm font-medium text-stone-600">
+                    <a href="Simple_Blog_UI.html" class="text-stone-900 border-b-2 border-stone-800 pb-1">Home</a>
+                    <a href="#" class="hover:text-stone-900 transition pb-1">Technology</a>
+                    <a href="#" class="hover:text-stone-900 transition pb-1">Design</a>
+                    <a href="#" class="hover:text-stone-900 transition pb-1">Lifestyle</a>
+                </nav>
+            </div>
+            <div class="flex items-center gap-4 text-sm font-medium">
+                <a href="#" class="text-stone-500 hover:text-indigo-600 transition"><i class="fas fa-search text-lg"></i></a>
+                <span class="w-px h-6 bg-stone-200 mx-2"></span>
+                <a href="Simple_Blog_UI_Add.html" class="text-indigo-600 hover:text-indigo-800 transition flex items-center gap-2 px-3 py-1.5 rounded bg-indigo-50 font-bold"><i class="fas fa-pen-nib"></i> Write</a>
+                <div class="h-9 w-9 bg-indigo-100 rounded-full flex items-center justify-center font-bold text-indigo-700 ml-2 shadow-inner border border-indigo-200">A</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Featured Post / Hero Section -->
+        <section class="mb-16 cursor-pointer">
+            <div class="relative rounded-2xl overflow-hidden group shadow-lg">
+                <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/40 to-transparent z-10 w-full h-full"></div>
+                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Featured Post" class="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700 ease-in-out">
+                
+                <div class="absolute bottom-0 left-0 p-10 z-20 w-full md:w-3/4">
+                    <span class="inline-block px-3 py-1 bg-indigo-600 text-white text-xs uppercase tracking-widest font-bold rounded mb-4 shadow">Technology</span>
+                    <h1 class="text-white text-4xl md:text-5xl font-serif font-bold leading-tight mb-4 group-hover:text-indigo-200 transition">The Evolution of Modern Content Management Systems.</h1>
+                    <p class="text-stone-300 text-lg mb-6 line-clamp-2">Exploring how rigid HTML sites transformed into dynamic, fully scalable React-based MERN applications explicitly designed for mass concurrency.</p>
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-full bg-stone-300 overflow-hidden flex items-center justify-center font-bold text-stone-600">AV</div>
+                        <div>
+                            <p class="text-white font-medium text-sm">Aditi Verma</p>
+                            <p class="text-stone-400 text-xs uppercase font-medium">Oct 29, 2026 • 8 min read</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CMS Editor / Post Grid -->
+        <div class="flex items-center justify-between mb-8 border-b border-stone-200 pb-4">
+            <h2 class="text-2xl font-serif font-bold text-stone-800">Your Published Articles</h2>
+            <div class="flex gap-2">
+                <button class="px-4 py-2 bg-stone-100 text-stone-700 text-sm font-medium rounded hover:bg-stone-200 transition border border-stone-200">Drafts (2)</button>
+                <a href="Simple_Blog_UI_Add.html" class="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded shadow-md hover:bg-indigo-700 transition inline-flex items-center"><i class="fas fa-plus mr-2"></i> New Article</a>
+            </div>
+        </div>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <article class="bg-white border border-stone-200 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 flex flex-col h-full cursor-pointer">
+                <div class="h-48 overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-stone-900/20 group-hover:bg-transparent transition z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Code" class="w-full h-full object-cover group-hover:scale-105 transition">
+                    <div class="absolute top-4 right-4 z-20 flex gap-2">
+                        <button class="h-8 w-8 bg-white text-stone-700 rounded-full shadow hover:text-indigo-600 transition flex items-center justify-center"><i class="fas fa-edit text-xs"></i></button>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="text-indigo-600 text-xs uppercase tracking-wider font-bold">Programming</span>
+                        <span class="text-stone-400 text-xs"><i class="far fa-heart mr-1 text-red-400"></i> 124</span>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-stone-900 mb-2 leading-snug">Why MERN dominates the modern web stack in India.</h3>
+                    <p class="text-stone-600 text-sm mb-4 line-clamp-3 flex-1">A deep dive into how MongoDB, Express, React, and Node structurally revolutionized database to frontend workflows entirely rendering legacy architectures obsolete in Bangalore's tech industry.</p>
+                    <div class="flex items-center justify-between text-xs text-stone-500 font-medium">
+                        <span>Oct 25, 2026</span>
+                        <span class="text-indigo-600 font-bold uppercase tracking-wide group-hover:text-indigo-800">Read More <i class="fas fa-arrow-right ml-1 relative top-[1px]"></i></span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="bg-white border border-stone-200 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 flex flex-col h-full cursor-pointer">
+                <div class="h-48 overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-stone-900/20 group-hover:bg-transparent transition z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1542744094-24638ea0b34e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Office" class="w-full h-full object-cover group-hover:scale-105 transition">
+                    <div class="absolute top-4 right-4 z-20 flex gap-2">
+                        <button class="h-8 w-8 bg-white text-stone-700 rounded-full shadow hover:text-indigo-600 transition flex items-center justify-center"><i class="fas fa-edit text-xs"></i></button>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="text-rose-500 text-xs uppercase tracking-wider font-bold">Design</span>
+                        <span class="text-stone-400 text-xs"><i class="far fa-heart mr-1"></i> 89</span>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-stone-900 mb-2 leading-snug">Mastering Tailwind CSS natively.</h3>
+                    <p class="text-stone-600 text-sm mb-4 line-clamp-3 flex-1">Stop writing external stylesheets. Understand exactly how utility-first framing creates drastically cleaner React component architectures instantly for large scale startups.</p>
+                    <div class="flex items-center justify-between text-xs text-stone-500 font-medium">
+                        <span>Oct 22, 2026</span>
+                        <span class="text-indigo-600 font-bold uppercase tracking-wide">Read More <i class="fas fa-arrow-right ml-1 relative top-[1px]"></i></span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="bg-white border border-stone-200 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 flex flex-col h-full cursor-pointer">
+                <div class="h-48 bg-stone-100 flex items-center justify-center relative border-b border-stone-200">
+                    <i class="fas fa-image text-stone-300 text-4xl"></i>
+                    <div class="absolute top-4 right-4 z-20 flex gap-2">
+                        <button class="h-8 w-8 bg-white text-stone-700 rounded-full shadow hover:text-indigo-600 transition flex items-center justify-center"><i class="fas fa-edit text-xs"></i></button>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="text-emerald-600 text-xs uppercase tracking-wider font-bold">Database</span>
+                        <span class="text-stone-400 text-xs"><i class="far fa-heart mr-1"></i> 34</span>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-stone-900 mb-2 leading-snug">Understanding NoSQL Document Stores</h3>
+                    <p class="text-stone-600 text-sm mb-4 line-clamp-3 flex-1">Why MongoDB BSON objects map flawlessly toward native Javascript JSON arrays destroying table-locking deadlocks forever in Indian ecommerce platforms.</p>
+                    <div class="flex items-center justify-between text-xs text-stone-500 font-medium">
+                        <span>Oct 14, 2026</span>
+                        <span class="text-indigo-600 font-bold uppercase tracking-wide">Read More <i class="fas fa-arrow-right ml-1 relative top-[1px]"></i></span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

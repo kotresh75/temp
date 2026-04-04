@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Add Transaction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>body { font-family: 'Outfit', sans-serif; }</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="flex h-screen overflow-hidden">
+        <aside class="w-64 bg-emerald-900 text-emerald-100 flex flex-col items-center py-8 hidden md:flex">
+            <div class="flex flex-col items-center mb-10">
+                <div class="h-16 w-16 bg-emerald-500 rounded-2xl flex items-center justify-center text-white text-3xl mb-4 shadow-lg shadow-emerald-500/40">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <h1 class="text-xl font-bold text-white tracking-wide">SpendSmart</h1>
+            </div>
+            <nav class="w-full px-4 space-y-2">
+                <a href="Expense_Tracker_UI.html" class="flex items-center px-6 py-3 hover:bg-emerald-800 hover:text-white rounded-xl transition-colors font-medium"><i class="fas fa-home w-8"></i> Dashboard</a>
+                <a href="#" class="flex items-center px-6 py-3 bg-emerald-800 text-white rounded-xl shadow-inner font-medium"><i class="fas fa-plus-circle w-8 text-emerald-400"></i> Add Record</a>
+                <a href="#" class="flex items-center px-6 py-3 hover:bg-emerald-800 hover:text-white rounded-xl transition-colors font-medium"><i class="fas fa-chart-pie w-8"></i> Analytics</a>
+            </nav>
+        </aside>
+        
+        <main class="flex-1 flex flex-col overflow-y-auto items-center justify-center p-6">
+            <div class="bg-white rounded-3xl p-10 max-w-lg w-full shadow-xl shadow-gray-200/50 border border-gray-100">
+                <div class="mb-8 text-center">
+                    <div class="h-16 w-16 bg-emerald-50 text-emerald-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-4"><i class="fas fa-rupee-sign"></i></div>
+                    <h2 class="text-2xl font-bold text-gray-900">Record a Transaction</h2>
+                    <p class="text-gray-500 text-sm mt-1">Track your spending or log an income.</p>
+                </div>
+                
+                <form class="space-y-6">
+                    <!-- Type Toggle -->
+                    <div class="flex bg-gray-100 p-1 rounded-xl">
+                        <button type="button" class="flex-1 bg-white text-gray-900 py-2.5 rounded-lg shadow-sm font-semibold text-sm transition">Expense</button>
+                        <button type="button" class="flex-1 text-gray-500 py-2.5 rounded-lg font-medium text-sm hover:text-gray-900 transition">Income</button>
+                    </div>
+
+                    <!-- Amount -->
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Amount</label>
+                        <div class="relative">
+                            <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 font-bold text-xl">₹</span>
+                            <input type="number" placeholder="0.00" class="w-full pl-10 pr-4 py-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition text-2xl font-bold text-gray-900">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Category</label>
+                            <select class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition appearance-none font-medium">
+                                <option>Groceries</option>
+                                <option>Utilities (BESCOM, Water)</option>
+                                <option>Dining (Zomato/Swiggy)</option>
+                                <option>Transportation (Fuel, Ola)</option>
+                                <option>Rent / Housing</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Date</label>
+                            <input type="date" value="2026-10-30" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition font-medium text-gray-700">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Note (Optional)</label>
+                        <input type="text" placeholder="e.g. Dinner with friends at Barbeque Nation" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:bg-white outline-none transition font-medium text-gray-700">
+                    </div>
+
+                    <button type="button" class="w-full py-4 bg-gray-900 text-white rounded-xl font-bold text-lg hover:bg-black transition shadow-lg shadow-gray-900/30">
+                        Save Transaction
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

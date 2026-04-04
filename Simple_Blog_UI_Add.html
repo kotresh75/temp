@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog - New Article</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Work Sans', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .editor-content:empty:before { content: attr(data-placeholder); color: #9ca3af; }
+    </style>
+</head>
+<body class="bg-white text-stone-900 overflow-x-hidden min-h-screen flex flex-col">
+    <!-- Top Navigation (Editor Mode) -->
+    <header class="bg-white border-b border-stone-200 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a href="Simple_Blog_UI.html" class="text-stone-400 hover:text-stone-800 transition"><i class="fas fa-arrow-left"></i></a>
+                <span class="text-stone-300">|</span>
+                <span class="text-sm font-medium text-stone-500">Draft • Saved just now</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="text-sm font-medium text-stone-500 hover:text-indigo-600 transition px-3 py-1">Preview</button>
+                <button class="px-5 py-1.5 bg-indigo-600 text-white text-sm font-bold rounded-full shadow hover:bg-indigo-700 transition">Publish</button>
+                <div class="h-8 w-8 bg-indigo-100 rounded-full flex items-center justify-center font-bold text-indigo-700 ml-2 shadow-inner border border-indigo-200 text-sm">AV</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 flex-1 w-full">
+        <div class="relative group mb-8">
+            <div class="h-64 w-full bg-stone-100 border-2 border-dashed border-stone-300 rounded-xl flex flex-col items-center justify-center text-stone-400 hover:bg-stone-50 hover:border-indigo-300 transition cursor-pointer">
+                <i class="fas fa-camera text-3xl mb-2 text-stone-300"></i>
+                <span class="font-medium">Add a cover image</span>
+            </div>
+        </div>
+        
+        <!-- Editor Content -->
+        <article class="max-w-3xl mx-auto w-full">
+            <input type="text" placeholder="Title" class="w-full text-5xl font-serif font-bold text-stone-900 border-none outline-none placeholder-stone-300 mb-6 bg-transparent">
+            
+            <input type="text" placeholder="Tell your story..." class="w-full text-xl font-medium text-stone-600 border-none outline-none placeholder-stone-300 mb-8 bg-transparent">
+            
+            <!-- Floating Toolbar (Mockup) -->
+            <div class="sticky top-20 bg-white border border-stone-200 shadow-lg rounded-lg py-2 px-4 flex gap-4 items-center mb-6 z-40 w-max transform -translate-x-12 absolute -left-16 hidden md:flex flex-col">
+                <button class="text-stone-500 hover:text-indigo-600 h-8 w-8 rounded hover:bg-stone-100"><i class="fas fa-plus"></i></button>
+                <button class="text-stone-500 hover:text-indigo-600 h-8 w-8 rounded hover:bg-stone-100"><i class="fas fa-camera"></i></button>
+                <button class="text-stone-500 hover:text-indigo-600 h-8 w-8 rounded hover:bg-stone-100"><i class="fas fa-code"></i></button>
+            </div>
+            
+            <div class="editor-content text-lg text-stone-700 leading-relaxed outline-none min-h-[300px]" contenteditable="true" data-placeholder="Start writing here. Highlight text for formatting options."></div>
+        </article>
+    </main>
+</body>
+</html>
