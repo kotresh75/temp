@@ -36,7 +36,7 @@ To stick to ethics of being transparent and provide maximum value to our clients
 The structural hierarchy at Rlogic Technologies is designed to promote efficient development, hands-on learning, and successful project delivery:
 
 ```mermaid
-graph TD
+graph LR
     A["Director / Founder (Mr. Rakesh B H)"] --> B["Manager(s)"]
     B --> C["Senior Developers (Technical Leads)"]
     C --> D["Mentors / Testing Engineers"]

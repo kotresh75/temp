@@ -4,13 +4,13 @@ theme: default
 paginate: true
 ---
 
-# CIE - I Presentation
+# Slide 1: CIE - I Presentation
 ## Company Profile: Rlogic Technologies
 **Date:** [DD/MM/YYYY]
 
 ---
 
-## 1. Overview of the Organization
+## Slide 2: Overview of the Organization
 
 **Rlogic Technologies**
 - **Established:** 01/12/2020
@@ -20,7 +20,7 @@ paginate: true
 
 ---
 
-## 2. Vision, Mission & Values
+## Slide 3: Vision, Mission & Values
 
 - **Vision:** Improve the quality of life through software products and social service activities, empowering individuals to use their skills meaningfully.
 
@@ -30,19 +30,19 @@ paginate: true
 
 ---
 
-## 3. Organization Structure
+## Slide 4: Organization Structure
 
 ```mermaid
-graph TD
+graph LR
     A["Director / Founder"] --> B["Manager(s)"]
     B --> C["Senior Developers"]
-    C --> D["Mentors / Testing Engineers"]
-    D --> E["Interns / Trainees"]
+    C --> D["Mentors / QA"]
+    D --> E["Interns"]
 ```
 
 ---
 
-## 4. Roles and Responsibilities
+## Slide 5: Roles and Responsibilities
 
 - **Director:** Defines long-term strategies, MoUs, and ensures company vision is met.
 - **Manager:** Resource allocation, project scheduling, and coordination.
@@ -52,7 +52,7 @@ graph TD
 
 ---
 
-## 5. Products and Services
+## Slide 6: Products and Services
 
 **1. Hands-on Workshops & Training:**
 - PCB Design & Fabrication
@@ -67,7 +67,7 @@ graph TD
 
 ---
 
-## 6. Market Performance & Clientele
+## Slide 7: Market Performance & Clientele
 
 **Robust market presence with top-tier collaborations:**
 
@@ -79,5 +79,5 @@ graph TD
 
 ---
 
-# Thank You!
+## Slide 8: Thank You!
 **Any Questions?**
