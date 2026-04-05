@@ -1,114 +1,90 @@
-# Continuous Internal Evaluation - CIE - III
-### Conducted at the end of 12th week
+## Continuous Internal Evaluation- CIE -III conducted at the end of 12th week
 
-**Submitted to:** Training Supervisor & Cohort Owner  
-**Submitted by:** [Your Name]  
-**Registration No:** [Your Registration Number]  
-**Date:** 28/03/2026
+| Sl No | Assessment of On Job Training (OJT)-2 + use case2 | Marks |
+| :---: | :--- | :---: |
+| 1 | Select another job role of his/her interest in an organization or role assigned by the training supervisor for next Four weeks and submit a report to the training supervisor and copy to cohort owner focusing on:<br><br>1. Intern's ability to apply the skill and technical knowledge on OJT-2<br>2. Intern's performance on assigned tasks and project<br>3. Extent of Intern's ability to add value to the organization through internship | 50 |
+| 2 | Documenting of another Use case on a task where he is working as intern | 30 |
+| | **Total** | **80** |
 
----
-
-## Part A: Assessment of On Job Training (OJT) - 2 (50 Marks)
-
-**Assigned Job Role:** Full Stack Application Developer (Intern)
-
-### 1. Intern's Ability to Apply Skill and Technical Knowledge on OJT-2
-
-During the final phase of the On-the-Job Training (spanning Weeks 9 to 12), the focus shifted entirely from learning isolated tools to performing complex, full-scale system integrations and initiating the capstone project. My ability to apply technical acumen was showcased in advanced architectural domains:
-
-#### 1.1 Advanced Frontend Integration & Routing
-- **Single Page Navigation:** Successfully applied knowledge of `react-router-dom` to architect a seamless navigation experience across multiple system views (Dashboard, Add Asset, Settings) without any browser reloads.
-- **Asynchronous Synchronization:** Effectively utilized `useEffect` hooks to trigger network calls precisely during the React component lifecycle, keeping the client UI constantly synchronized with the remote database state.
-- **Complex UI/UX Styling:** Applied advanced Tailwind CSS utility classes to design sleek, fully responsive data grids, modern form input components, and intuitive system alerts tailored for mobile and desktop environments.
-
-#### 1.2 API Architecture and System Refactoring
-- **Codebase Refactoring:** Demonstrated solid engineering skills by analyzing the legacy codebase and refactoring monolithic routing logic into separated, clean Controller files (`Controllers/assetController.js`).
-- **Network Security:** Applied backend configuration skills to diagnose and successfully bypass complex Cross-Origin Resource Sharing (CORS) errors between the separate React local server and the Express API server.
-- **Endpoint Design:** Actively planned and documented comprehensive RESTful API endpoints required for the main capstone project prior to writing any execution code.
-
-#### 1.3 Database Structuring (MongoDB)
-- **Schema Planning:** Applied technical design skills to whiteboard complex relational models within a NoSQL structure, carefully planning out how disparate data points would interact within the capstone database.
-- **Automated Queries:** Transitioned from manual database inputs via MongoDB Compass to executing robust, automated Mongoose server queries (`.find()`, `.findById()`) driven completely by frontend HTTP requests.
-
-### 2. Intern's Performance on Assigned Tasks and Project
-
-My performance transitioning into the project phase was characterized by rapid development velocity and an uncompromised focus on structural stability:
-
-#### 2.1 Timeline Execution and Project Scaffolding
-- Consistently executed the required milestones, leading the initiative to scaffold the new, clean project repository. This included setting up the root folder structures, initializing Node environments, and independently spinning up the React boilerplate ahead of schedule.
-- Successfully completed deep integration tasks: wiring up previously static React 'Add Employee/Asset' forms to process dynamic database insertions via the actual Express backend.
-
-#### 2.2 Rigorous Debugging and Testing
-- Achieved high performance by thoroughly testing all newly architected CRUD endpoints. By executing rigorous network tests via Postman before connecting the frontend, I eliminated potential backend bottlenecks and prevented frustrating UI bugs.
-- Rapidly resolved network failures by actively utilizing the Chrome Network Developer Tools, intercepting failed payload requests, and analyzing HTTP headers to diagnose system disconnections.
-
-#### 2.3 Collaborative Development Practices
-- Continued to showcase strong collaborative habits by utilizing Git for all capstone structural updates, providing meaningful commit messages, and ensuring my working branch remained uncorrupted before team reviews.
-
-### 3. Extent of Intern's Ability to Add Value to the Organization
-
-During this critical development phase, I added extensive value to the organization by taking proactive technical ownership over project planning:
-
-#### 3.1 Driving Architectural Blueprinting
-- Added significant structural value by leading the Schema and API endpoint planning sessions. I physically documented the required software blueprint on technical whiteboards before development began, ensuring the entire team shared a unified vision of the database goals.
-
-#### 3.2 UI/UX Modernization
-- Directly improved the visual standard of the internal management tools. By researching CSS documentation and meticulously integrating modern Tailwind framework styles over raw HTML, I elevated the application from a "rough prototype" into a professional, enterprise-grade interface.
-
-#### 3.3 Knowledge Exchange and Diagnostics
-- Provided lasting value by diagnosing complex CORS and asynchronous state bugs that occasionally blocked other interns. By sharing these specific debugging solutions during weekly team syncs, I helped reduce the overall downtime across the cohort.
-
----
-
-## Part B: Use Case Documentation (30 Marks)
-
-**Project Context:** Developing the internal Capstone Tool (e.g., Asset / Inventory Tracker) as a Full Stack Application Intern.
-
-### Use Case: Fetch and Display Dynamic Data Grid
-
-**1. Use Case Name:** Retrieve and Render Dashboard Records  
-**2. Primary Actors:** End User / IT Staff Member  
-**3. System Under Consideration:** MERN Stack Inventory Tracker Application  
-
-**4. Preconditions:** 
-- The React frontend application is completely booted and loaded in the user's browser.
-- The Express.js backend server is actively listening on its assigned network port and maintains a stable connection to the remote Node/MongoDB cluster.
-- The database collection actively contains at least one formatted data record.
-
-**5. Brief Description:** 
-This technical use case outlines the automated systemic interaction occurring the moment a customized dashboard component loads. It details how the React frontend autonomously requests data from the backend API, how the Express server safely queries MongoDB, and the resultant rendering of the live data table without manual user intervention.
-
-**6. Main Success Scenario (Normal Flow):**
-
-| Step | Actor Action | System Response |
-| :--- | :--- | :--- |
-| 1 | The user clicks the "View Dashboard" link within the application Sidebar Navigation. | React Router intercepts the URL change and mounts the `<Dashboard />` UI component seamlessly without reloading the window. |
-| 2 | - | The component's internal `useEffect()` hook triggers autonomously immediately upon the initial mounting phase. |
-| 3 | - | The `useEffect()` hook initiates an asynchronous HTTP `GET` request (via `axios`/`fetch`) targeting the specific REST API endpoint (e.g., `/api/assets`). |
-| 4 | - | The Express.js routing layer catches the `GET` request, validating the headers and forwarding the call to the localized read Controller. |
-| 5 | - | Express executes a Mongoose `.find({})` command asynchronously, querying the targeted MongoDB collection for all existing internal records. |
-| 6 | - | The MongoDB core engine processes the query and returns the targeted array of secure Object documents back to the Express server framework. |
-| 7 | - | Express parses the returned database payload and fires a `200 OK` HTTP status response wrapping the raw JSON array back down standard web protocols to the awaiting React client. |
-| 8 | - | React receives the sanitized payload and processes it, mutating the local `[data, setData]` state hook with the fetched records. |
-| 9 | - | The React Virtual DOM compares the state change and instantly re-renders the responsive Tailwind UI Grid, populating the interactive graphical table rows with real, persistent database values for the User to view. |
-
-**7. Alternative Flows (Error Handling):**
-
-- **7.1 Empty Database Collection:**
-  - *If* the MongoDB `.find()` query yields a completely empty response (i.e., no records exist yet).
-  - *System Response:* The Express backend functions normally, responding with a `200 OK` status, but transmits an empty JSON array `[]`.
-  - *Frontend Hand-off:* The React UI maps the array length (`length === 0`). Instead of generating structural errors or empty grids, the UI conditionally renders a user-friendly fallback placeholder component (e.g., "No Items Found. Please Use the 'Add Record' panel to generate data.")
-
-- **7.2 CORS Rejection / Network Unreachable:**
-  - *If* the Express API server goes offline, or standard Cross-Origin blocks are forcefully applied.
-  - *System Response:* The browser naturally rejects the `fetch` request on the network level.
-  - *Frontend Hand-off:* The `catch()` block within the React `useEffect` hook traps the failure. It triggers an error-state hook, replacing the active loading spinners with a high-visibility Red Banner Alert ("Critical Error: Failed to synchronize with the remote database. Contact Admin.").
-
-**8. Postconditions:**
-- **Success:** The user successfully observes an updated, accurate visual dashboard representing the current, live contents of the NoSQL database.
-- **Failure:** The user is visually warned of a connection failure and prevented from making structural decisions based on outdated UI data caches.
-
----
 **Note:**
-1. *CIE-III shall be assessed by the Industrial Training Supervisor using companies' assessment Tools/Rubrics.*
-2. *Cohort owner shall assist the Industrial Training Supervisor during assessment of CIE-III.*
+1. CIE-III shall be assessed by the Industrial Training Supervisor using companies' assessment Tools/Rubrics
+2. Cohort owner shall assist the Industrial Training Supervisor during assessment of CIE-III
+
+---
+
+# CIE 3 Report
+
+**Job Role Assigned:** Full Stack Web Developer Intern  
+**Project Allocated:** Online Complaint Management System  
+**Organization:** Rlogic Technologies  
+
+## 1. Intern's Ability to Apply Skill and Technical Knowledge on OJT-2
+
+During the On Job Training (OJT-2), I elevated my technical responsibilities by engineering an **Online Complaint Management System**. This project tested my ability to handle complex user matrices and data classification using the MERN stack. My technical applications included:
+
+*   **Frontend Routing & Client Logic:** 
+    *   **React Router Dom & State:** Engineered isolated views safeguarding Admin routes (`/admin/dashboard`) from Standard User routes (`/student/complaints`). Utilized localized Context API to prevent endless API polling for user permissions.
+    *   **Tailwind CSS Interfaces:** Developed highly polished modal popups and responsive grid boards ensuring long text inputs (e.g., grievance descriptions) render effectively on smartphones without breaking the viewport logic.
+*   **Express API & Data Validation:** 
+    *   **Node.js Server Mechanics:** Crafted advanced RESTful endpoints (e.g., `POST /api/complaints/new`, `PUT /api/complaints/:id/status`) manipulating JSON payloads inherently mapped to HTTP verbs.
+    *   **Authorization Middleware:** Implemented rigorous server-side restrictions confirming that only authorized personnel with valid JWT tokens could manipulate operational status blocks (like resolving a ticket).
+*   **NoSQL Schema Engineering:** 
+    *   **MongoDB Document Structuring:** Built a highly scalable database capable of storing text-heavy variables natively. Established strict Mongoose schemas explicitly limiting status parameters to 'Open', 'Pending', or 'Closed' strictly enforcing accurate data entry.
+
+## 2. Intern's Performance on Assigned Tasks and Project
+
+Following Rlogic Technologies' strict corporate methodology, I executed all project modules systematically to deliver a fully functional portal:
+
+*   **Phase 1 - Requirement Analysis & Scope:** 
+    *   Defined absolute boundaries mapping Standard User privileges against Universal Administrator overriding abilities.
+    *   Constructed logical Data Flow Diagrams and ER maps to visualize how an active grievance text block interacted securely with the administrative core without exposing victim details unnecessarily.
+*   **Phase 2 - Relational Modeling & Backend:** 
+    *   Initialized the central MongoDB Atlas cluster, engineering specific Collections to store varied arrays of complaints categorized by immediate urgency (Infrastructure, IT Support, Administrative).
+*   **Phase 3 - Asynchronous Integration:** 
+    *   Programmed optimized Axios fetch calls ensuring that when an Administrator shifted a complaint from 'Open' to 'Resolved', the React interface immediately updated its color-coded label without requiring a browser refresh.
+*   **Phase 4 - Stress Testing & Security:** 
+    *   Deployed Postman to conduct rigorous API checks, actively attempting forceful token hacks. Successfully mapped the backend to reject invalid access arrays throwing direct `401 Unauthorized` errors.
+
+## 3. Extent of Intern's Ability to Add Value to the Organization Through Internship
+
+The complete implementation of the digital Complaint Management workflow provided massive logistical upgrades to legacy operational frameworks:
+
+*   **Resolved Institutional Bottlenecks:** Replaced archaic physical drop-boxes and unstructured email chains completely. This ensured grievances like hardware failures or infrastructure issues were electronically acknowledged immediately, eliminating the risk of lost paper trails.
+*   **Maximized Triage Efficiency:** Enabled an interactive ticketing dashboard that allowed administrators to sort and tackle "High Priority" items immediately, massively enhancing operational turnaround speeds.
+*   **Modern Data Accountability:** Fostered a transparent electronic record ecosystem. By utilizing strict schema structures, end-users logged complaints accurately, bypassing disjointed manual cross-department communications permanently.
+
+---
+
+## 2. Documenting of another Use case on a task where he is working as intern
+
+**Use Case Title:** Elevating and Resolving a High-Priority Infrastructure Complaint  
+**Primary Actor:** Administrative Officer / Systems Manager  
+**Secondary Actor:** Standard User (Student / Employee) and Backend MongoDB Database  
+**Goal:** Successfully review an incoming, high-priority institution complaint (e.g., Faulty Air Conditioning or Broken Laboratory Equipment) and update its resolution status efficiently within the system.
+
+**Pre-conditions:**
+1. A Standard User (e.g., "Rahul K.") has successfully submitted a new complaint ticket categorized as `Infrastructure`.
+2. The Administrator is logged into the Online Complaint Management System possessing the `ADMIN` JWT token successfully stored in local memory.
+3. The ticketing dashboard is successfully connected to the MongoDB backend.
+
+**Main Success Scenario (Flow of Events):**
+1. **Initiation:** The Administrator accesses the secure `/admin/dashboard` URL route on their browser.
+2. **Data Polling:** The React application sends an asynchronous `GET` request (`/api/complaints/all`), fetching all current active grievance documents from MongoDB.
+3. **Observation:** The Administrator identifies a red-highlighted "High Priority" ticket in the list:
+   *   `Ticket_ID`: "RL-COMP-9902"
+   *   `Subject`: "Computer Science Lab 3 Air Conditioning Failure"
+   *   `Status`: "Open"
+4. **Action Trigger:** The Administrator clicks the "Review & Act" contextual button attached to the specific ticket row.
+5. **Modification:** A modal overlays the screen viewing the full problem description. The Administrator changes the dropdown menu from `Status: Open` to `Status: Resolved (Fixed by Vendor)`.
+6. **Submission:** The Administrator confirms the modifications and clicks the "Update Status" button.
+7. **Network Transport:** The React frontend constructs an HTTP `PUT` request targeting `/api/complaints/RL-COMP-9902/status` attaching the Administrator's JWT inside the `Authorization` header securely ensuring only they performed this override.
+8. **Server-Side Validation:** The Express.js routing middleware decodes the JWT confirming authorization. It then validates if the string "Resolved (Fixed by Vendor)" is explicitly allowed inside the Mongoose schema constraints.
+9. **Database Commit:** The server instructs the driver to formally update the `COMPLAINTS` document. MongoDB overwrites the status string natively returning a clear success object.
+10. **UI Hydration:** Express fires a `200 OK` response. React immediately intercepts this updating the dashboard locally. The ticket "RL-COMP-9902" turns green and moves gracefully into the "Archived / Resolved" column seamlessly.
+
+**Alternate Flows (Exceptions):**
+*   ***Unauthorized Entry (Step 8):*** If a Standard User hacks the UI attempting to fire the `PUT` request to close their own ticket abruptly, the Express server middleware immediately rejects the `Authorization` header returning a `403 Forbidden` response. The UI renders a red "Access Denied" toast alert.
+
+**Post-conditions:**
+*   The complaint resolution metric is permanently recorded with a timestamp indicating exact administrative action.
+*   The original user who filed the ticket checking their portal will instantly view their issue securely flagged as resolved.
