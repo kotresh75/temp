@@ -70,6 +70,27 @@ The complete conceptualization and deployment of the Asset Tracker provided prof
 2. The Administrator is actively logged into the Web-Based Asset Tracker system via valid JWT authentication.
 3. The target Department (e.g., "Logistics & Supply Chain") already exists within the system metadata.
 
+**Use Case Sequence Diagram:**
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Admin as Administrator
+    participant UI as React Frontend
+    participant API as Express Server
+    participant DB as MongoDB
+    
+    Admin->>UI: Clicks "Add New Asset"
+    UI-->>Admin: Renders "Add Asset" Form Modal
+    Admin->>UI: Submits Asset Details (Tata Lorry, VIN)
+    UI->>API: POST /api/assets/add (with JWT header)
+    API->>API: Validates JWT & JSON Schema block
+    API->>DB: Commits Asset BSON Document
+    DB-->>API: Returns DB Success & _id
+    API-->>UI: 200 OK Status Response
+    UI-->>Admin: Animates new asset into Dashboard Table
+```
+
 **Main Success Scenario (Flow of Events):**
 1. **Initiation:** The Administrator navigates to the core "Asset Management" dashboard within the application workspace.
 2. **Action Trigger:** The Administrator clicks the prominent "+ Add New Asset" CTA button located at the top right of the dashboard.

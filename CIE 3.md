@@ -67,6 +67,30 @@ The complete implementation of the digital Complaint Management workflow provide
 2. The Administrator is logged into the Online Complaint Management System possessing the `ADMIN` JWT token successfully stored in local memory.
 3. The ticketing dashboard is successfully connected to the MongoDB backend.
 
+**Use Case Sequence Diagram:**
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Admin as Administrator
+    participant UI as React Frontend
+    participant API as Express Server
+    participant DB as MongoDB
+    
+    Admin->>UI: Navigates to `/admin/dashboard`
+    UI->>API: GET `/api/complaints/all`
+    API->>DB: Fetches Grievance Documents
+    DB-->>API: Returns DB Ticket Array
+    API-->>UI: Renders Open Tickets
+    Admin->>UI: Updates Ticket "RL-COMP-9902" Status
+    UI->>API: PUT `/.../RL-COMP-9902/status` (with JWT)
+    API->>API: Validates JWT & Permitted Status String
+    API->>DB: Formal Status Overwrite
+    DB-->>API: Success Confirmation Object
+    API-->>UI: 200 OK Status Response
+    UI-->>Admin: Hydrates Local UI (Ticket Turns Green)
+```
+
 **Main Success Scenario (Flow of Events):**
 1. **Initiation:** The Administrator accesses the secure `/admin/dashboard` URL route on their browser.
 2. **Data Polling:** The React application sends an asynchronous `GET` request (`/api/complaints/all`), fetching all current active grievance documents from MongoDB.
