@@ -70,25 +70,27 @@ The complete conceptualization and deployment of the Asset Tracker provided prof
 2. The Administrator is actively logged into the Web-Based Asset Tracker system via valid JWT authentication.
 3. The target Department (e.g., "Logistics & Supply Chain") already exists within the system metadata.
 
-**Use Case Sequence Diagram:**
+**General Use Case Diagram:**
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Admin as Administrator
-    participant UI as React Frontend
-    participant API as Express Server
-    participant DB as MongoDB
-    
-    Admin->>UI: Clicks "Add New Asset"
-    UI-->>Admin: Renders "Add Asset" Form Modal
-    Admin->>UI: Submits Asset Details (Tata Lorry, VIN)
-    UI->>API: POST /api/assets/add (with JWT header)
-    API->>API: Validates JWT & JSON Schema block
-    API->>DB: Commits Asset BSON Document
-    DB-->>API: Returns DB Success & _id
-    API-->>UI: 200 OK Status Response
-    UI-->>Admin: Animates new asset into Dashboard Table
+```plantuml
+@startuml
+left to right direction
+actor "Administrator / IT Manager" as admin
+
+rectangle "Web-Based Asset Tracker" {
+    usecase "Authenticate Session via JWT" as UC1
+    usecase "Access Core Management Dashboard" as UC2
+    usecase "Trigger 'Add New Asset' Action" as UC3
+    usecase "Fill Tata Signa Delivery Details" as UC4
+    usecase "Submit and Validate Payload" as UC5
+}
+
+admin --> UC1
+admin --> UC2
+admin --> UC3
+admin --> UC4
+admin --> UC5
+@enduml
 ```
 
 **Main Success Scenario (Flow of Events):**

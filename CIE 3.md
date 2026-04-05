@@ -67,28 +67,27 @@ The complete implementation of the digital Complaint Management workflow provide
 2. The Administrator is logged into the Online Complaint Management System possessing the `ADMIN` JWT token successfully stored in local memory.
 3. The ticketing dashboard is successfully connected to the MongoDB backend.
 
-**Use Case Sequence Diagram:**
+**General Use Case Diagram:**
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Admin as Administrator
-    participant UI as React Frontend
-    participant API as Express Server
-    participant DB as MongoDB
-    
-    Admin->>UI: Navigates to `/admin/dashboard`
-    UI->>API: GET `/api/complaints/all`
-    API->>DB: Fetches Grievance Documents
-    DB-->>API: Returns DB Ticket Array
-    API-->>UI: Renders Open Tickets
-    Admin->>UI: Updates Ticket "RL-COMP-9902" Status
-    UI->>API: PUT `/.../RL-COMP-9902/status` (with JWT)
-    API->>API: Validates JWT & Permitted Status String
-    API->>DB: Formal Status Overwrite
-    DB-->>API: Success Confirmation Object
-    API-->>UI: 200 OK Status Response
-    UI-->>Admin: Hydrates Local UI (Ticket Turns Green)
+```plantuml
+@startuml
+left to right direction
+actor "Administrative Officer" as admin
+
+rectangle "Complaint Management System" {
+    usecase "Access Secure Admin Dashboard" as UC1
+    usecase "Fetch Live Complaint Directory" as UC2
+    usecase "Click Open on Priority Grievance" as UC3
+    usecase "Override Resolution Status" as UC4
+    usecase "Commit Server Validated Changes" as UC5
+}
+
+admin --> UC1
+admin --> UC2
+admin --> UC3
+admin --> UC4
+admin --> UC5
+@enduml
 ```
 
 **Main Success Scenario (Flow of Events):**
